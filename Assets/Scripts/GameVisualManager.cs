@@ -1,12 +1,14 @@
+using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
-using static UnityEngine.Rendering.GPUSort;
+
 
 public class GameVisualManager : NetworkBehaviour
 {
     [SerializeField] private Transform crossPrefab;
     [SerializeField] private Transform circlePrefab;
     [SerializeField] private Transform lineCompletePrefab;
+    private List<GameObject> allSpawnedObjs = new List<GameObject>();
 
     const float GRID_SIZE = 3.1f;
 
@@ -14,6 +16,20 @@ public class GameVisualManager : NetworkBehaviour
     {
         GameManager.Instance.OnClickedOnGridPos += HandleGridClick;
         GameManager.Instance.OnGameWin += GameManger_OnGameWin;
+        GameManager.Instance.OnRematch += GameManager_OnRematch;
+    }
+
+    private void GameManager_OnRematch(object sender, System.EventArgs e)
+    {
+        if (!NetworkManager.Singleton.IsServer)
+        {
+            return;
+        }
+
+        foreach(GameObject obj in allSpawnedObjs)
+        {
+            Destroy(obj);
+        }
     }
 
     private void GameManger_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
@@ -39,6 +55,7 @@ public class GameVisualManager : NetworkBehaviour
         }
         Transform lineCompletePrefabTransform = Instantiate(lineCompletePrefab, center, Quaternion.Euler(0, 0, rotatoinZ));
         lineCompletePrefabTransform.GetComponent<NetworkObject>().Spawn(true);
+        allSpawnedObjs.Add(lineCompletePrefabTransform.gameObject);
     }
 
     private void HandleGridClick(object sender, GameManager.OnClickedOnGridPosEventArgs args)
@@ -68,7 +85,7 @@ public class GameVisualManager : NetworkBehaviour
 
         Transform crossPrefabTransform = Instantiate(prefab, GetGridWorldPos(x, y), Quaternion.identity);
         crossPrefabTransform.GetComponent<NetworkObject>().Spawn(true);
-
+        allSpawnedObjs.Add(crossPrefabTransform.gameObject);
     }
 
     private Vector2 GetGridWorldPos(int x, int y)

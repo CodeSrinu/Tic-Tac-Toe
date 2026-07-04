@@ -8,17 +8,28 @@ public class GameOverUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI resultTextComp;
     [SerializeField] private Color winColor;
     [SerializeField] private Color loseColor;
-    [SerializeField] private Button retryBtn;
+    [SerializeField] private Color tieColor;
+    [SerializeField] private Button rematchBtn;
 
     private void Start()
     {
-        retryBtn.onClick.AddListener(() =>
+        rematchBtn.onClick.AddListener(() =>
         {
-            NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);
+            GameManager.Instance.RematchRpc();
+            Hide();
         });
 
         Hide();
+
         GameManager.Instance.OnGameWin += GameManager_OnGameWin;
+        GameManager.Instance.OnGameTied += GameManager_OnGameTied;
+    }
+
+    private void GameManager_OnGameTied(object sender, System.EventArgs e)
+    {
+        resultTextComp.text = "Tie";
+        resultTextComp.color = tieColor;
+        Show();
     }
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
