@@ -10,11 +10,20 @@ public class GameManager : NetworkBehaviour
     public event EventHandler<OnClickedOnGridPosEventArgs> OnClickedOnGridPos;
     public event EventHandler OnGameStarted;
     public event EventHandler<PlayerType> OnCurrentPlayerTypeChange;
-    public class OnClickedOnGridPosEventArgs{
+    public event EventHandler<OnGameWinEventArgs> OnGameWin;
+    public class OnClickedOnGridPosEventArgs: EventArgs{
         public int x;
         public int y;
         public PlayerType playerType;
     }
+    public class OnGameWinEventArgs : EventArgs
+    {
+        public Vector2Int centerGridPos;
+        public Oreintation oreintation;
+        public PlayerType winPlayerType;
+    }
+
+ 
     public enum PlayerType
     {
         None,
@@ -22,11 +31,21 @@ public class GameManager : NetworkBehaviour
         Circle
     }
 
+    public enum Oreintation
+    {
+        Horizontal,
+        Vertical,
+        DiagnolA,
+        DiagonlB,
+    }
+
     public PlayerType GetLocalPlayerType => _localPlayerType;
     public PlayerType GetCurrentCurrentPlayerType => _currentPlayablePlayerType.Value;
 
     private PlayerType _localPlayerType;
     private NetworkVariable<PlayerType> _currentPlayablePlayerType = new NetworkVariable<PlayerType>();
+
+    private PlayerType[,] playerTypeArray = new PlayerType[3,3];
 
     private void Awake()
     {
@@ -84,6 +103,10 @@ public class GameManager : NetworkBehaviour
             return;
         }
 
+        if (playerTypeArray[x, y] != PlayerType.None) return;//already occupied
+
+        playerTypeArray[x, y] = playerType;
+
         Debug.Log("CheckGridposition " + x + "," + y);
         OnClickedOnGridPos?.Invoke(this, new OnClickedOnGridPosEventArgs
         {
@@ -102,6 +125,79 @@ public class GameManager : NetworkBehaviour
                 _currentPlayablePlayerType.Value = PlayerType.Cross;
                 break;
         }
+        TestWinnerRpc();
     }
+
+    [Rpc(SendTo.ClientsAndHost)]
+    private void TestWinnerRpc()
+    {
+        for(int x = 0; x < 3; x++)
+        {
+
+            bool isHorizontalWin = TestHorizontalLineWinner(x);
+            bool isVerticalWin = TestVeticalLineWinner(x);
+            bool isDiagnolAWin = TestDiagnolA();
+            bool isDiagnolBWin = TestDiagnolB();
+            Oreintation orein = isVerticalWin ? Oreintation.Vertical
+                : isHorizontalWin ? Oreintation.Horizontal
+                : isDiagnolAWin ? Oreintation.DiagnolA
+                : Oreintation.DiagonlB;
+            Vector2Int center = isVerticalWin ? new Vector2Int(x, 1) : isHorizontalWin ? new Vector2Int(1, x) : new Vector2Int(1, 1);
+
+            if (isHorizontalWin || isVerticalWin || isDiagnolAWin || isDiagnolBWin)
+            {
+                TriggerOnGameWinRpc(center, orein, playerTypeArray[center.x,center.y]);
+                _currentPlayablePlayerType.Value = PlayerType.None;
+                break;
+            }
+
+            
+        }
+
+        
+    }
+
+    [Rpc(SendTo.ClientsAndHost)]
+    private void TriggerOnGameWinRpc(Vector2Int center, Oreintation orein, PlayerType winPlayerType)
+    {
+        OnGameWin?.Invoke(this, new OnGameWinEventArgs
+        {
+            centerGridPos = center,
+            oreintation = orein,
+            winPlayerType = winPlayerType,
+        });
+    }
+
+    private bool TestVeticalLineWinner(int x)
+    {
+        return playerTypeArray[x, 0] != PlayerType.None &&
+            playerTypeArray[x, 0] == playerTypeArray[x, 1] &&
+            playerTypeArray[x, 1] == playerTypeArray[x, 2];
+    }
+
+    private bool TestHorizontalLineWinner(int y)
+    {
+        return playerTypeArray[0, y] != PlayerType.None &&
+            playerTypeArray[0, y] == playerTypeArray[1, y] &&
+            playerTypeArray[1,y] == playerTypeArray[2, y];
+    }
+
+    private bool TestDiagnolA()
+    {
+        return (playerTypeArray[0, 0] != PlayerType.None &&
+             playerTypeArray[0, 0] == playerTypeArray[1, 1] &&
+             playerTypeArray[1, 1] == playerTypeArray[2, 2]);
+    }
+
+    private bool TestDiagnolB()
+    {
+
+        return (playerTypeArray[0, 2] != PlayerType.None &&
+            playerTypeArray[0, 2] == playerTypeArray[1, 1] &&
+            playerTypeArray[1, 1] == playerTypeArray[2, 0]);
+
+    }
+
+
 
 }

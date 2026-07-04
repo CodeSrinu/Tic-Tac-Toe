@@ -19,16 +19,16 @@ public class PlayerUI : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.OnGameStarted += PlayerUI_OnGameStarted;
-        GameManager.Instance.OnCurrentPlayerTypeChange += PlayerUI_OnCurrentPlayerTypeChange;
+        GameManager.Instance.OnGameStarted += GameManager_OnGameStarted;
+        GameManager.Instance.OnCurrentPlayerTypeChange += GameManager_OnCurrentPlayerTypeChange;
     }
 
-    private void PlayerUI_OnCurrentPlayerTypeChange(object sender, GameManager.PlayerType playerType)
+    private void GameManager_OnCurrentPlayerTypeChange(object sender, GameManager.PlayerType playerType)
     {
         UpdateArrowImage(playerType);
     }
 
-    private void PlayerUI_OnGameStarted(object sender, System.EventArgs e)
+    private void GameManager_OnGameStarted(object sender, System.EventArgs e)
     {
         if(GameManager.Instance.GetLocalPlayerType == GameManager.PlayerType.Cross)
         {
