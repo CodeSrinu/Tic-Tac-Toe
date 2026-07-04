@@ -7,6 +7,7 @@ public class GridComp : MonoBehaviour, IPointerClickHandler
     [SerializeField] private int y;
     public void OnPointerClick(PointerEventData eventData)
     {
-        GameManager.Instance.CheckGridposition(x, y);
+        Debug.Log("Click " + x + "," + y);
+        GameManager.Instance.CheckGridpositionRpc(x, y, GameManager.Instance.GetLocalPlayerType);
     }
 }
