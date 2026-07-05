@@ -14,6 +14,7 @@ public class LobbyManager : MonoBehaviour
 
     private async void Start()
     {
+        DontDestroyOnLoad(gameObject);
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
     }
