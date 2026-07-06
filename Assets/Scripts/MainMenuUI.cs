@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,7 +20,7 @@ public class MainMenuUI : MonoBehaviour
 
         createRoomBtn.onClick.AddListener(() =>
         {
-
+            CreateRoomFlow();
         });
         
         joinRoomBtn.onClick.AddListener(() =>
@@ -32,5 +34,11 @@ public class MainMenuUI : MonoBehaviour
         });
     }
 
+
+    public async void CreateRoomFlow()
+    {
+        LobbyManager.Instance.CreateLobby();
+
+    }
 
 }

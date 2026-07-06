@@ -11,6 +11,17 @@ public class LobbyManager : MonoBehaviour
 {
     private Lobby hostLobby;
     private Lobby currentLobby;
+    public static LobbyManager Instance { get; private set; }
+    private void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        } 
+
+        Instance = this;
+    }
 
     private async void Start()
     {
@@ -19,7 +30,7 @@ public class LobbyManager : MonoBehaviour
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
     }
 
-    private async void CreateLobby()
+    public async void CreateLobby()
     {
         try
         {
@@ -39,7 +50,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    private async void ListLobbies()
+    public async void ListLobbies()
     {
         try
         {
@@ -66,7 +77,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    private async void JoinLobbyByCode(string code)
+    public async void JoinLobbyByCode(string code)
     {
         try
         {
@@ -79,7 +90,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    private async void QuickJoinLobby()
+    public async void QuickJoinLobby()
     {
         try
         {
