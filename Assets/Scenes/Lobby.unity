@@ -385,8 +385,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1520,7 +1520,7 @@ GameObject:
   - component: {fileID: 1324828367}
   - component: {fileID: 1324828366}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Room Code Txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,6 +1767,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae36f3146765b74c992cd2065eb4459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LobbyUI
+  playerOneName: {fileID: 1854741247}
+  playerTwoName: {fileID: 1250766550}
+  roomCode: {fileID: 1324828366}
+  playerTwoAvatarComponent: {fileID: 551104041}
+  defaultAvatar: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  avatarAfterJoined: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1854741245
 GameObject:
   m_ObjectHideFlags: 0
