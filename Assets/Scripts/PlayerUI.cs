@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -6,6 +8,9 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] private GameObject circleArrowImg;
     [SerializeField] private GameObject crossYouText;
     [SerializeField] private GameObject circleYouText;
+    [SerializeField] private GameObject confirmExitPanel;
+    [SerializeField] private Button backBtn;
+
 
 
 
@@ -21,6 +26,11 @@ public class PlayerUI : MonoBehaviour
     {
         GameManager.Instance.OnGameStarted += GameManager_OnGameStarted;
         GameManager.Instance.OnCurrentPlayerTypeChange += GameManager_OnCurrentPlayerTypeChange;
+
+        backBtn.onClick.AddListener(() =>
+        {
+            ShowConfirmToExit();
+        });
     }
 
     private void GameManager_OnCurrentPlayerTypeChange(object sender, GameManager.PlayerType playerType)
@@ -30,7 +40,7 @@ public class PlayerUI : MonoBehaviour
 
     private void GameManager_OnGameStarted(object sender, System.EventArgs e)
     {
-        if(GameManager.Instance.GetLocalPlayerType == GameManager.PlayerType.Cross)
+        if (GameManager.Instance.GetLocalPlayerType == GameManager.PlayerType.Cross)
         {
             crossYouText?.SetActive(true);
             circleYouText?.SetActive(false);
@@ -49,15 +59,20 @@ public class PlayerUI : MonoBehaviour
         switch (playerType)
         {
             default:
-                case GameManager.PlayerType.Cross:
-                    crossArrowImg.SetActive(true);
-                    circleArrowImg.SetActive(false);
-                    break;
-                case GameManager.PlayerType.Circle:
-                    circleArrowImg.SetActive(true);
-                    crossArrowImg.SetActive(false);
-                    break;
+            case GameManager.PlayerType.Cross:
+                crossArrowImg.SetActive(true);
+                circleArrowImg.SetActive(false);
+                break;
+            case GameManager.PlayerType.Circle:
+                circleArrowImg.SetActive(true);
+                crossArrowImg.SetActive(false);
+                break;
 
         }
-    } 
+    }
+
+    private void ShowConfirmToExit()
+    {
+        confirmExitPanel.SetActive(true);
+    }
 }

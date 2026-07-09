@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class GameVisualManager : NetworkBehaviour
@@ -8,6 +9,9 @@ public class GameVisualManager : NetworkBehaviour
     [SerializeField] private Transform crossPrefab;
     [SerializeField] private Transform circlePrefab;
     [SerializeField] private Transform lineCompletePrefab;
+    [SerializeField] private Transform confirmRematchPanel;
+    [SerializeField] private Button rematchConfirmBtn;
+    [SerializeField] private Button rematchRejectBtn;
     private List<GameObject> allSpawnedObjs = new List<GameObject>();
 
     const float GRID_SIZE = 3.1f;
@@ -16,24 +20,39 @@ public class GameVisualManager : NetworkBehaviour
     {
         GameManager.Instance.OnClickedOnGridPos += HandleGridClick;
         GameManager.Instance.OnGameWin += GameManger_OnGameWin;
+        GameManager.Instance.OnRematchRequested += GameManager_OnRematchRequested;
         GameManager.Instance.OnRematch += GameManager_OnRematch;
+
+        rematchConfirmBtn.onClick.AddListener(() =>
+        {
+            GameManager.Instance.RematchRpc();
+            confirmRematchPanel.gameObject.SetActive(false);
+        });
+
+        rematchRejectBtn.onClick.AddListener(() =>
+        {
+            NetworkManager.Singleton.SceneManager.LoadScene("Lobby", UnityEngine.SceneManagement.LoadSceneMode.Single);
+        });
     }
 
+    private void GameManager_OnRematchRequested(object sender, System.EventArgs e)
+    {
+        confirmRematchPanel.gameObject.SetActive(true);
+    }
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
-        if (!NetworkManager.Singleton.IsServer)
-        {
-            return;
-        }
+        if (!NetworkManager.Singleton.IsHost) return;
 
         foreach(GameObject obj in allSpawnedObjs)
         {
             Destroy(obj);
         }
+        allSpawnedObjs.Clear();
     }
-
     private void GameManger_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
     {
+        if (!NetworkManager.Singleton.IsHost) return;
+
         Vector3 center = GetGridWorldPos(e.centerGridPos.x, e.centerGridPos.y);
         float rotatoinZ;
         switch (e.oreintation)

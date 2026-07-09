@@ -1,5 +1,8 @@
+using System.Linq;
 using TMPro;
+using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LobbyUI : MonoBehaviour
@@ -11,17 +14,37 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private Image playerTwoAvatarComponent;
     [SerializeField] private Sprite defaultAvatar;
     [SerializeField] private Sprite avatarAfterJoined;
-    [SerializeField] private Button startBtn;
+    [SerializeField] private Button readyBtn;
+    [SerializeField] private Button backBtn;
+    [SerializeField] private GameObject confirmExitPanel;
+
+    private bool isReady = false;
 
     private void Start()
     {
-        startBtn.onClick.AddListener(() =>
+        readyBtn.onClick.AddListener(() =>
         {
-            
+            isReady = !isReady;
+            if (isReady)
+            {
+                LobbyManager.Instance.SetPlayersReadyStatus("true");
+                readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Cancel";
+                SetUpLobbyPanel();
+            }
+            else
+            {
+                LobbyManager.Instance.SetPlayersReadyStatus("false");
+                readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
+            }
         });
+
 
         SetUpLobbyPanel();
         LobbyManager.Instance.onLobbyUpdated += LobbyManager_onLobbyUpdated;
+        backBtn.onClick.AddListener(() =>
+        {
+            ShowConfirmExitPanel();
+        });
     }
 
     private void OnDestroy()
@@ -36,7 +59,7 @@ public class LobbyUI : MonoBehaviour
 
     public void SetUpLobbyPanel()
     {
-        lobbyTittle.text = playerOneName.text + " Lobby";
+        lobbyTittle.text = LobbyManager.Instance.CurrentLobby.Name;
         roomCode.text = LobbyManager.Instance.GetRoomCode;
 
         playerOneName.text = LobbyManager.Instance.CurrentLobby.Players[0].Data["PlayerName"].Value;
@@ -50,6 +73,18 @@ public class LobbyUI : MonoBehaviour
             playerTwoAvatarComponent.sprite = defaultAvatar;
             playerTwoName.text = "Waiting...";
         }
+
+        bool isAllReady = LobbyManager.Instance.CurrentLobby.Players.
+            All(player => player.Data.ContainsKey("IsReady") && player.Data["IsReady"].Value == "true");
+
+        if (isAllReady && NetworkManager.Singleton.IsHost)
+        {
+            NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);
+        }
     }
 
+    private  void ShowConfirmExitPanel()
+    {
+        confirmExitPanel.SetActive(true);
+    }
 }

@@ -9,6 +9,7 @@ public class GameManager : NetworkBehaviour
     public event EventHandler OnGameStarted;
     public event EventHandler<PlayerType> OnCurrentPlayerTypeChange;
     public event EventHandler<OnGameWinEventArgs> OnGameWin;
+    public event EventHandler OnRematchRequested;
     public event EventHandler OnRematch;
     public event EventHandler OnGameTied;
     public class OnClickedOnGridPosEventArgs: EventArgs{
@@ -22,17 +23,12 @@ public class GameManager : NetworkBehaviour
         public Oreintation oreintation;
         public PlayerType winPlayerType;
     }
-
-
-
- 
     public enum PlayerType
     {
         None,
         Cross,
         Circle
     }
-
     public enum Oreintation
     {
         Horizontal,
@@ -73,7 +69,7 @@ public class GameManager : NetworkBehaviour
 
         if (IsServer)
         {
-            NetworkManager.Singleton.OnClientConnectedCallback += NetworkManager_OnClientConnectedCallback;
+            NetworkManager.Singleton.SceneManager.OnLoadEventCompleted += SceneManager_OnLoadEventCompleted;
         }
 
         _currentPlayablePlayerType.OnValueChanged += (PlayerType prevPlayerType, PlayerType newPlayerType) =>
@@ -82,13 +78,12 @@ public class GameManager : NetworkBehaviour
         };
     }
 
-    private void NetworkManager_OnClientConnectedCallback(ulong obj)
+    private void SceneManager_OnLoadEventCompleted(string sceneName, UnityEngine.SceneManagement.LoadSceneMode loadSceneMode, System.Collections.Generic.List<ulong> clientsCompleted, System.Collections.Generic.List<ulong> clientsTimedOut)
     {
-        if (NetworkManager.Singleton.ConnectedClientsList.Count >= 2)
-        {
-            _currentPlayablePlayerType.Value = PlayerType.Cross;
-            TriggerOnGameStartedRpc();
-        }
+        NetworkManager.Singleton.SceneManager.OnLoadEventCompleted -= SceneManager_OnLoadEventCompleted;
+
+        _currentPlayablePlayerType.Value = PlayerType.Cross;
+        TriggerOnGameStartedRpc();
     }
 
     [Rpc(SendTo.ClientsAndHost)]
@@ -242,6 +237,21 @@ public class GameManager : NetworkBehaviour
     private void TriggerOnRematchRpc()
     {
         OnRematch?.Invoke(this, EventArgs.Empty);
+    }
+
+    [Rpc(SendTo.Server)]
+    public void RequestRematchServerRpc(RpcParams rpcParams = default)
+    {
+        ulong requesterId = rpcParams.Receive.SenderClientId;
+        NotifyRematchRequestClientRpc(requesterId);
+    }
+
+    [Rpc(SendTo.ClientsAndHost)]
+    public void NotifyRematchRequestClientRpc(ulong requesterId)
+    {
+        if (NetworkManager.Singleton.LocalClientId == requesterId) return;
+
+        OnRematchRequested?.Invoke(this, EventArgs.Empty);
     }
 
 

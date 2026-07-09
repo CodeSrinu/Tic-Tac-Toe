@@ -23,6 +23,7 @@ public class LobbyManager : MonoBehaviour
     public event Action onLobbyLeft;
     public event Action<Lobby> onLobbyUpdated;
     public event Action onLobbyFailed;
+    public event Action<List<Lobby>> onLobbiesRefreshed;
 
     public static LobbyManager Instance { get; private set; }
     public string GetRoomCode => currentLobby.LobbyCode;
@@ -115,7 +116,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    public async void ListLobbies()
+    public async Task<List<Lobby>> ListLobbies()
     {
         try
         {
@@ -130,19 +131,21 @@ public class LobbyManager : MonoBehaviour
                 {
                     new QueryOrder(true, QueryOrder.FieldOptions.Created)
                 }
-
+                
             };
 
             QueryResponse queryResponse = await LobbyService.Instance.QueryLobbiesAsync();
 
+            return queryResponse.Results;
         }
         catch(Exception e)
         {
             Debug.LogError(e.Message);
+            return null;
         }
     }
 
-    public async void JoinLobbyByCode(string roomCode, string clientName)
+    public async Task<bool> JoinLobbyByCode(string roomCode, string clientName)
     {
         try
         {
@@ -171,11 +174,13 @@ public class LobbyManager : MonoBehaviour
             NetworkManager.Singleton.StartClient();
             StartPollingLobbyData();
             onLobbyJoined?.Invoke();
+            return true;
         }
         catch(LobbyServiceException e)
         {
             onLobbyFailed?.Invoke();
             Debug.Log(e);
+            return false;
         }
     }
 
@@ -247,8 +252,6 @@ public class LobbyManager : MonoBehaviour
 
     private async void StartPollingLobbyData()
     {
-
-
         try
         {
             while (currentLobby != null)
@@ -263,5 +266,28 @@ public class LobbyManager : MonoBehaviour
         {
             Debug.Log(e);
         }
+    }
+
+    public async void StartPollingLobbiesList()
+    {
+        while(currentLobby == null)
+        {
+            List<Lobby> lobbies = await ListLobbies();
+            if(lobbies != null)
+                onLobbiesRefreshed?.Invoke(lobbies);
+            await Task.Delay(3000);
+        }
+    }
+
+    public async void SetPlayersReadyStatus(string isReady)
+    {
+        UpdatePlayerOptions updatePlayerOptions = new UpdatePlayerOptions()
+        {
+            Data = new Dictionary<string, PlayerDataObject>()
+            {
+                {"IsReady", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, isReady) },
+            }
+        };
+        await LobbyService.Instance.UpdatePlayerAsync(currentLobby.Id, AuthenticationService.Instance.PlayerId, updatePlayerOptions);
     }
 }

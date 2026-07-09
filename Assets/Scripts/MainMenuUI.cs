@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using TMPro;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
@@ -31,12 +30,14 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button joinRoomConfirmBtn;
     [SerializeField] private Button joinRoomPanelCancelBtn;
 
-    private bool isRoomPrivate = false;
 
     private void Awake()
     {
+        playerNameInputComp.text = PlayerPrefs.GetString("PlayerName", "");
         playerNameInputComp.onValueChanged.AddListener((value) =>
         {
+            PlayerPrefs.SetString("PlayerName", value.Trim());
+            PlayerPrefs.Save();
             UpdateInputError(playerNameInputComp, nameErrorTxtComp);
         });
 
@@ -95,10 +96,6 @@ public class MainMenuUI : MonoBehaviour
             //will write after lobby pipline completed
         });
 
-        isPrivateToggle.onValueChanged.AddListener((value) =>
-        {
-            isRoomPrivate = value;
-        });
 
         createRoomConfirmBtn.onClick.AddListener(() =>
         {
@@ -120,7 +117,7 @@ public class MainMenuUI : MonoBehaviour
                 return;
             }
 
-            LobbyManager.Instance.JoinLobbyByCode(code, playerName);
+            JoinByCodeFlow(code, playerName);
         });
     }
 
@@ -164,7 +161,17 @@ public class MainMenuUI : MonoBehaviour
             return;
         }
 
-        await LobbyManager.Instance.CreateLobby(lobbyName, hostName, isRoomPrivate);
+        await LobbyManager.Instance.CreateLobby(lobbyName, hostName, isPrivateToggle.isOn);
+    }
+
+    private async void JoinByCodeFlow(string code, string playerName)
+    {
+        bool isValidCode = await LobbyManager.Instance.JoinLobbyByCode(code, playerName);
+
+        if (!isValidCode)
+        {
+            UpdateInputError(roomCodeInputComp, roomCodeErrorTxtComp);
+        }
     }
 
 
