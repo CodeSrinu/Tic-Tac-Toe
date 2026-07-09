@@ -1,4 +1,6 @@
+using System;
 using System.Linq;
+using System.Threading.Tasks;
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
@@ -22,6 +24,9 @@ public class LobbyUI : MonoBehaviour
 
     private void Start()
     {
+        isReady = false;
+        readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
+
         readyBtn.onClick.AddListener(() =>
         {
             isReady = !isReady;
@@ -45,6 +50,10 @@ public class LobbyUI : MonoBehaviour
         {
             ShowConfirmExitPanel();
         });
+    }
+    private async Task ResetPlayersReadyStatus()
+    {
+        await LobbyManager.Instance.SetAllPlayersAsNotReady();
     }
 
     private void OnDestroy()

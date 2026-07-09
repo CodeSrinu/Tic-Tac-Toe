@@ -10,6 +10,7 @@ using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,6 +46,8 @@ public class LobbyManager : MonoBehaviour
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
         SceneManager.LoadScene("MainMenu");
+
+
     }
 
 
@@ -289,5 +292,23 @@ public class LobbyManager : MonoBehaviour
             }
         };
         await LobbyService.Instance.UpdatePlayerAsync(currentLobby.Id, AuthenticationService.Instance.PlayerId, updatePlayerOptions);
+    }
+
+    public async Task SetAllPlayersAsNotReady()
+    {
+        var updatedData = new Dictionary<string, PlayerDataObject>()
+            {
+                {"IsReady", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, "false") },
+            };
+
+        foreach(var player in currentLobby.Players)
+        {
+            UpdatePlayerOptions options = new UpdatePlayerOptions()
+            {
+                Data = updatedData
+            };
+            await LobbyService.Instance.UpdatePlayerAsync(currentLobby.Id, player.Id, options);
+        }
+
     }
 }

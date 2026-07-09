@@ -53,6 +53,7 @@ public class GameManager : NetworkBehaviour
             return;
         }
         Instance = this;
+
     }
 
     public override void OnNetworkSpawn()
@@ -165,10 +166,7 @@ public class GameManager : NetworkBehaviour
             {
                 TriggerOnGameTiedRpc();
             }
-            
-        }
-
-        
+        }  
     }
 
     [Rpc(SendTo.ClientsAndHost)]
@@ -254,5 +252,15 @@ public class GameManager : NetworkBehaviour
         OnRematchRequested?.Invoke(this, EventArgs.Empty);
     }
 
+    [Rpc(SendTo.Server)]
+    public void DeclineRematchServerRpc()
+    {
+        ResetPlayerReadyStatus();
+    }
 
+    private async void ResetPlayerReadyStatus()
+    {
+        await LobbyManager.Instance.SetAllPlayersAsNotReady();
+        NetworkManager.Singleton.SceneManager.LoadScene("Lobby", UnityEngine.SceneManagement.LoadSceneMode.Single);
+    }
 }

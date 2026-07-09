@@ -31,7 +31,7 @@ public class GameVisualManager : NetworkBehaviour
 
         rematchRejectBtn.onClick.AddListener(() =>
         {
-            NetworkManager.Singleton.SceneManager.LoadScene("Lobby", UnityEngine.SceneManagement.LoadSceneMode.Single);
+            GameManager.Instance.DeclineRematchServerRpc();
         });
     }
 

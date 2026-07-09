@@ -1621,11 +1621,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1492109080}
-  - {fileID: 987353488}
   - {fileID: 1395067823}
   - {fileID: 854443461}
   - {fileID: 2111642783}
   - {fileID: 2064319467}
+  - {fileID: 987353488}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2896,7 +2896,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -971.8331, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1742097748
 MonoBehaviour:
@@ -2937,7 +2937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
   m_HorizontalFit: 0
-  m_VerticalFit: 1
+  m_VerticalFit: 2
 --- !u!1 &1754783410
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,7 +3486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -50.000183}
+  m_AnchoredPosition: {x: 0, y: -50.000122}
   m_SizeDelta: {x: -140, y: -900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2111642782

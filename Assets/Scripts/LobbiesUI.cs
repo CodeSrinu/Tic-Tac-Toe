@@ -1,12 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using TMPro;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEngine.LowLevelPhysics2D.PhysicsLayers;
 
 public class LobbiesUI : MonoBehaviour
 {
@@ -148,8 +146,4 @@ public class LobbiesUI : MonoBehaviour
         Invoke("HideError", 5f);
     }
 
-    private List<Lobby> FilterTheLobbies(string lobbyName)
-    {
-        return listedLobbies.Where(lobby => lobby.Name.Contains(lobbyName, System.StringComparison.OrdinalIgnoreCase)).ToList();
-    }
 }
