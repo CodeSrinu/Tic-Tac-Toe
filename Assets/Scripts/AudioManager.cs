@@ -30,23 +30,13 @@ public class AudioManager : MonoBehaviour
         musicAudioSource.volume = volume;
     }
 
-    public void DisableMusicAudioSource()
+    public void SetMusicSourceEnabledStatus(bool isOn)
     {
-        musicAudioSource.enabled = false;
+        musicAudioSource.enabled = isOn;
+    }
+    public void SetSFXSourceEnabledStatus(bool isOn)
+    {
+        sfxAudioSource.enabled = isOn;
     }
 
-    public void DisableSFXAudioSource()
-    {
-        sfxAudioSource.enabled = false;
-    }
-
-    public void EnableMusicAudioSource()
-    {
-        musicAudioSource.enabled = true;
-    }
-
-    public void EnableSFXAudioSource()
-    {
-        sfxAudioSource.enabled = true;
-    }
 }

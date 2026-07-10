@@ -93,7 +93,7 @@ public class MainMenuUI : MonoBehaviour
 
         settingsBtn.onClick.AddListener(() =>
         {
-            //will write after lobby pipline completed
+            BoostrapManager.instance.ShowSettings();
         });
 
 

@@ -18,6 +18,7 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private Sprite avatarAfterJoined;
     [SerializeField] private Button readyBtn;
     [SerializeField] private Button backBtn;
+    [SerializeField] private Button settingsBtn;
     [SerializeField] private GameObject confirmExitPanel;
 
     private bool isReady = false;
@@ -51,6 +52,11 @@ public class LobbyUI : MonoBehaviour
         backBtn.onClick.AddListener(() =>
         {
             ShowConfirmExitPanel();
+        });
+
+        settingsBtn.onClick.AddListener(() =>
+        {
+            BoostrapManager.instance.ShowSettings();
         });
     }
     private async void ResetPlayersReadyStatus(string isReady)

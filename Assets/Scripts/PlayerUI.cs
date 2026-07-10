@@ -10,6 +10,7 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] private GameObject circleYouText;
     [SerializeField] private GameObject confirmExitPanel;
     [SerializeField] private Button backBtn;
+    [SerializeField] private Button settingsBtn;
 
 
 
@@ -30,6 +31,11 @@ public class PlayerUI : MonoBehaviour
         backBtn.onClick.AddListener(() =>
         {
             ShowConfirmToExit();
+        });
+
+        settingsBtn.onClick.AddListener(() =>
+        {
+            BoostrapManager.instance.ShowSettings();
         });
     }
 

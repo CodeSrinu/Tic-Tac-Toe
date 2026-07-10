@@ -25,6 +25,7 @@ public class LobbiesUI : MonoBehaviour
     private string playerName;
 
     [SerializeField] private Button backBtn;
+    [SerializeField] private Button settingsBtn;
 
     private void Start()
     {
@@ -58,6 +59,11 @@ public class LobbiesUI : MonoBehaviour
         backBtn.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("MainMenu");
+        });
+
+        settingsBtn.onClick.AddListener(() =>
+        {
+            BoostrapManager.instance.ShowSettings();
         });
 
         playerName = PlayerPrefs.GetString("PlayerName", "Defalut");

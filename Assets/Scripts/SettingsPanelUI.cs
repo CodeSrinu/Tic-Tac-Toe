@@ -25,7 +25,7 @@ public class SettingsPanelUI : MonoBehaviour
         _isMusicSourceOn = PlayerPrefs.GetString("isMusicSourceOn", "true") == "true";
         UpdateMusicSourceBtn();
 
-        _isSfxSourceOn = PlayerPrefs.GetString("isSfxSourceOn", "true") == "false";
+        _isSfxSourceOn = PlayerPrefs.GetString("isSfxSourceOn", "true") == "true";
         UpdateSFXSourceBtn();
 
         _musicVolume = PlayerPrefs.GetFloat("musicVolume", 1f);
@@ -37,7 +37,7 @@ public class SettingsPanelUI : MonoBehaviour
         musicSourceBtn.onClick.AddListener(() =>
         {
             _isMusicSourceOn = !_isMusicSourceOn;
-            PlayerPrefs.SetString("isMusicSourceOn", _isMusicSourceOn.ToString());
+            PlayerPrefs.SetString("isMusicSourceOn", _isMusicSourceOn.ToString().ToLower());
             PlayerPrefs.Save();
             UpdateMusicSourceBtn();
         });
@@ -45,7 +45,7 @@ public class SettingsPanelUI : MonoBehaviour
         sfxSourceBtn.onClick.AddListener(() =>
         {
             _isSfxSourceOn = !_isSfxSourceOn;
-            PlayerPrefs.SetString("isSfxSourceOn", _isSfxSourceOn.ToString());
+            PlayerPrefs.SetString("isSfxSourceOn", _isSfxSourceOn.ToString().ToLower());
             PlayerPrefs.Save();
             UpdateSFXSourceBtn();
         });
@@ -72,33 +72,18 @@ public class SettingsPanelUI : MonoBehaviour
 
     private void UpdateMusicSourceBtn()
     {
-        Sprite sprite;
-        if(_isMusicSourceOn)
-        {
-            sprite = musicSourceTurnedOnSprite;
-            AudioManager.instance.EnableMusicAudioSource();
-        }
-        else
-        {
-            sprite = musicSourceTurnedOffSprite;
-            AudioManager.instance.DisableMusicAudioSource();
-        }
+        Sprite sprite = _isMusicSourceOn ? musicSourceTurnedOnSprite : musicSourceTurnedOffSprite;
+        AudioManager.instance.SetMusicSourceEnabledStatus(_isMusicSourceOn);
+        musicVolumeSlider.interactable = _isMusicSourceOn;
         musicSourceBtn.GetComponent<Image>().sprite = sprite;
     }
 
+
     private void UpdateSFXSourceBtn()
     {
-        Sprite sprite;
-        if(_isSfxSourceOn)
-        {
-            sprite = sfxSourceTurnedOnSprite;
-            AudioManager.instance.EnableSFXAudioSource();
-        }
-        else
-        {
-            sprite = sfxSourceTurnedOffSprite;
-            AudioManager.instance.DisableSFXAudioSource();
-        }
+        Sprite sprite = _isSfxSourceOn ? sfxSourceTurnedOnSprite : sfxSourceTurnedOffSprite;
+        AudioManager.instance.SetSFXSourceEnabledStatus(_isSfxSourceOn);
+        sfxVolumeSlider.interactable = _isSfxSourceOn;
         sfxSourceBtn.GetComponent<Image>().sprite = sprite;
     }
 }

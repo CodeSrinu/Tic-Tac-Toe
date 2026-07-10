@@ -21,7 +21,7 @@ public class BoostrapManager : MonoBehaviour
         loadingScreenManager.Hide();
     }
 
-    public void OpenSetings() => settingsPanel.SetActive(true);
+    public void ShowSettings() => settingsPanel.SetActive(true);
     public void ShowLoading() => loadingScreenManager.Show();
     public void HideLoading() => loadingScreenManager.Hide();
 
