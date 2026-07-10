@@ -85,7 +85,9 @@ public class LobbiesUI : MonoBehaviour
 
     private void LobbyManager_onLobbyJoined()
     {
+        BoostrapManager.instance.ShowLoading();
         SceneManager.LoadScene("Lobby");
+        BoostrapManager.instance.HideLoading();
     }
 
     private void ShowAvailableLobbies(string lobbyName)

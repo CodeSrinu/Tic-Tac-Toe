@@ -138,7 +138,9 @@ public class MainMenuUI : MonoBehaviour
     }
     private void LobbyManager_onLobbyJoined()
     {
+        BoostrapManager.instance.ShowLoading();
         SceneManager.LoadScene("Lobby");
+        BoostrapManager.instance.HideLoading();
     }
 
     private void LobbyManager_onLobbyFailed()
@@ -148,7 +150,9 @@ public class MainMenuUI : MonoBehaviour
 
     private void LobbyManager_onLobbyCreated()
     {
+        BoostrapManager.instance.ShowLoading();
         SceneManager.LoadScene("Lobby");
+        BoostrapManager.instance.HideLoading();
     }
 
     public async void CreateRoomFlow()

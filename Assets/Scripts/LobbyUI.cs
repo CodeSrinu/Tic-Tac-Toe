@@ -13,6 +13,8 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI  playerTwoName;
     [SerializeField] private TextMeshProUGUI  roomCode;
     [SerializeField] private TextMeshProUGUI  lobbyTittle;
+    [SerializeField] private TextMeshProUGUI  hostReadyTxtComp;
+    [SerializeField] private TextMeshProUGUI  clientReadyTxtComp;
     [SerializeField] private Image playerTwoAvatarComponent;
     [SerializeField] private Sprite defaultAvatar;
     [SerializeField] private Sprite avatarAfterJoined;
@@ -29,18 +31,34 @@ public class LobbyUI : MonoBehaviour
         _hasReceivedFirstPoll = false;
         isReady = false;
         readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
+        hostReadyTxtComp.text = "Not Ready";
+        clientReadyTxtComp.text = "Not Ready";
+
+
 
         readyBtn.onClick.AddListener(() =>
         {
             isReady = !isReady;
+
+            if (NetworkManager.Singleton.IsHost)
+            {
+                hostReadyTxtComp.text = isReady ? "Ready" : "Not Ready";
+            }
+            else
+            {
+                clientReadyTxtComp.text = isReady ? "Ready" : "Not Ready";
+            }
+
             if (isReady)
             {
                 ResetPlayersReadyStatus("true");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Cancel";
+
                 SetUpLobbyPanel();
             }
             else
             {
+                UpdateReadyStatusUI();
                 ResetPlayersReadyStatus("false");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
             }
@@ -97,14 +115,33 @@ public class LobbyUI : MonoBehaviour
         bool isAllReady = LobbyManager.Instance.CurrentLobby.Players.
             All(player => player.Data.ContainsKey("IsReady") && player.Data["IsReady"].Value == "true");
 
+        UpdateReadyStatusUI();
+
         if (isAllReady && NetworkManager.Singleton.IsHost)
         {
             NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);
         }
     }
 
-    private  void ShowConfirmExitPanel()
+    private void ShowConfirmExitPanel()
     {
         confirmExitPanel.SetActive(true);
+    }
+
+    private void UpdateReadyStatusUI()
+    {
+        bool ishostReady = 
+            LobbyManager.Instance.CurrentLobby.Players.Count > 0 &&
+            LobbyManager.Instance.CurrentLobby.Players[0].Data.ContainsKey("IsReady") &&
+            LobbyManager.Instance.CurrentLobby.Players[0].Data["IsReady"].Value == "true";
+
+        hostReadyTxtComp.text = ishostReady ? "Ready" : "Not Ready";
+
+        bool isClientReady =
+            LobbyManager.Instance.CurrentLobby.Players.Count > 1 &&
+            LobbyManager.Instance.CurrentLobby.Players[1].Data.ContainsKey("IsReady") && 
+            LobbyManager.Instance.CurrentLobby.Players[1].Data["IsReady"].Value == "true";
+
+        clientReadyTxtComp.text = isClientReady ? "Ready" : "Not Ready";
     }
 }
