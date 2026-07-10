@@ -21,9 +21,11 @@ public class LobbyUI : MonoBehaviour
     [SerializeField] private GameObject confirmExitPanel;
 
     private bool isReady = false;
+    private bool _hasReceivedFirstPoll = false;
 
     private void Start()
     {
+        _hasReceivedFirstPoll = false;
         isReady = false;
         readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
 
@@ -32,13 +34,13 @@ public class LobbyUI : MonoBehaviour
             isReady = !isReady;
             if (isReady)
             {
-                LobbyManager.Instance.SetPlayersReadyStatus("true");
+                ResetPlayersReadyStatus("true");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Cancel";
                 SetUpLobbyPanel();
             }
             else
             {
-                LobbyManager.Instance.SetPlayersReadyStatus("false");
+                ResetPlayersReadyStatus("false");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
             }
         });
@@ -51,9 +53,9 @@ public class LobbyUI : MonoBehaviour
             ShowConfirmExitPanel();
         });
     }
-    private async Task ResetPlayersReadyStatus()
+    private async void ResetPlayersReadyStatus(string isReady)
     {
-        await LobbyManager.Instance.SetAllPlayersAsNotReady();
+        await LobbyManager.Instance.SetPlayersReadyStatus(isReady);
     }
 
     private void OnDestroy()
@@ -63,6 +65,7 @@ public class LobbyUI : MonoBehaviour
 
     private void LobbyManager_onLobbyUpdated(Unity.Services.Lobbies.Models.Lobby lobby)
     {
+        _hasReceivedFirstPoll = true;
         SetUpLobbyPanel();
     }
 
@@ -82,6 +85,8 @@ public class LobbyUI : MonoBehaviour
             playerTwoAvatarComponent.sprite = defaultAvatar;
             playerTwoName.text = "Waiting...";
         }
+
+        if (!_hasReceivedFirstPoll) return;
 
         bool isAllReady = LobbyManager.Instance.CurrentLobby.Players.
             All(player => player.Data.ContainsKey("IsReady") && player.Data["IsReady"].Value == "true");

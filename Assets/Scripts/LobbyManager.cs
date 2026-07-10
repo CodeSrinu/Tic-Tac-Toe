@@ -128,7 +128,7 @@ public class LobbyManager : MonoBehaviour
                 Count = 15,
                 Filters = new List<QueryFilter>
                 {
-                    new QueryFilter(QueryFilter.FieldOptions.AvailableSlots, "0", QueryFilter.OpOptions.GT)
+                    new QueryFilter(QueryFilter.FieldOptions.AvailableSlots, "1", QueryFilter.OpOptions.EQ),
                 },
                 Order = new List<QueryOrder>
                 {
@@ -282,7 +282,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    public async void SetPlayersReadyStatus(string isReady)
+    public async Task SetPlayersReadyStatus(string isReady)
     {
         UpdatePlayerOptions updatePlayerOptions = new UpdatePlayerOptions()
         {
@@ -294,21 +294,5 @@ public class LobbyManager : MonoBehaviour
         await LobbyService.Instance.UpdatePlayerAsync(currentLobby.Id, AuthenticationService.Instance.PlayerId, updatePlayerOptions);
     }
 
-    public async Task SetAllPlayersAsNotReady()
-    {
-        var updatedData = new Dictionary<string, PlayerDataObject>()
-            {
-                {"IsReady", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, "false") },
-            };
 
-        foreach(var player in currentLobby.Players)
-        {
-            UpdatePlayerOptions options = new UpdatePlayerOptions()
-            {
-                Data = updatedData
-            };
-            await LobbyService.Instance.UpdatePlayerAsync(currentLobby.Id, player.Id, options);
-        }
-
-    }
 }

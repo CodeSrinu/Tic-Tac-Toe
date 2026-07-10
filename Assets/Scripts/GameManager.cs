@@ -1,5 +1,8 @@
 using System;
+using System.Threading.Tasks;
 using Unity.Netcode;
+using Unity.Services.Lobbies;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 
 public class GameManager : NetworkBehaviour
@@ -255,12 +258,22 @@ public class GameManager : NetworkBehaviour
     [Rpc(SendTo.Server)]
     public void DeclineRematchServerRpc()
     {
+        ResetPlayerReadyStatusClientRpc();
+    }
+    
+    [Rpc(SendTo.ClientsAndHost)]
+    public void ResetPlayerReadyStatusClientRpc()
+    {
         ResetPlayerReadyStatus();
     }
 
     private async void ResetPlayerReadyStatus()
     {
-        await LobbyManager.Instance.SetAllPlayersAsNotReady();
-        NetworkManager.Singleton.SceneManager.LoadScene("Lobby", UnityEngine.SceneManagement.LoadSceneMode.Single);
+         await LobbyManager.Instance.SetPlayersReadyStatus("false");
+
+        if (IsServer)
+        {
+            NetworkManager.Singleton.SceneManager.LoadScene("Lobby", UnityEngine.SceneManagement.LoadSceneMode.Single);
+        }
     }
 }
