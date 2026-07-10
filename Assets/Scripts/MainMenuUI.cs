@@ -12,6 +12,7 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button joinRoomBtn;
     [SerializeField] private Button quickMatch;
     [SerializeField] private Button settingsBtn;
+    [SerializeField] private Button exitBtn;
     [SerializeField] private TMP_InputField playerNameInputComp;
     [SerializeField] private TextMeshProUGUI nameErrorTxtComp;
 
@@ -30,6 +31,8 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button joinRoomConfirmBtn;
     [SerializeField] private Button joinRoomPanelCancelBtn;
 
+
+    [SerializeField] private GameObject confirmExitPanel;
 
     private void Awake()
     {
@@ -93,12 +96,13 @@ public class MainMenuUI : MonoBehaviour
 
         settingsBtn.onClick.AddListener(() =>
         {
-            BoostrapManager.instance.ShowSettings();
+            BoostrapManager.Instance.ShowSettings();
         });
 
 
         createRoomConfirmBtn.onClick.AddListener(() =>
         {
+            BoostrapManager.Instance.ShowLoading();
             CreateRoomFlow();
         });
 
@@ -117,7 +121,13 @@ public class MainMenuUI : MonoBehaviour
                 return;
             }
 
+            BoostrapManager.Instance.ShowLoading();
             JoinByCodeFlow(code, playerName);
+        });
+
+        exitBtn.onClick.AddListener(() =>
+        {
+            confirmExitPanel.SetActive(true);
         });
     }
 
@@ -138,9 +148,9 @@ public class MainMenuUI : MonoBehaviour
     }
     private void LobbyManager_onLobbyJoined()
     {
-        BoostrapManager.instance.ShowLoading();
+        
         SceneManager.LoadScene("Lobby");
-        BoostrapManager.instance.HideLoading();
+        BoostrapManager.Instance.HideLoading();
     }
 
     private void LobbyManager_onLobbyFailed()
@@ -150,9 +160,9 @@ public class MainMenuUI : MonoBehaviour
 
     private void LobbyManager_onLobbyCreated()
     {
-        BoostrapManager.instance.ShowLoading();
+        
         SceneManager.LoadScene("Lobby");
-        BoostrapManager.instance.HideLoading();
+        BoostrapManager.Instance.HideLoading();
     }
 
     public async void CreateRoomFlow()

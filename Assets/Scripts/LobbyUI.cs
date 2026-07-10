@@ -62,6 +62,8 @@ public class LobbyUI : MonoBehaviour
                 ResetPlayersReadyStatus("false");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Ready";
             }
+
+            LobbyManager.Instance.onLobbyLeft += LobbyManager_onLobbyLeft;
         });
 
 
@@ -74,9 +76,18 @@ public class LobbyUI : MonoBehaviour
 
         settingsBtn.onClick.AddListener(() =>
         {
-            BoostrapManager.instance.ShowSettings();
+            BoostrapManager.Instance.ShowSettings();
         });
+
+        BoostrapManager.Instance.HideLoading();
+
     }
+
+    private void LobbyManager_onLobbyLeft()
+    {
+        SetUpLobbyPanel();
+    }
+
     private async void ResetPlayersReadyStatus(string isReady)
     {
         await LobbyManager.Instance.SetPlayersReadyStatus(isReady);
@@ -119,6 +130,7 @@ public class LobbyUI : MonoBehaviour
 
         if (isAllReady && NetworkManager.Singleton.IsHost)
         {
+            BoostrapManager.Instance.ShowLoading();
             NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);
         }
     }

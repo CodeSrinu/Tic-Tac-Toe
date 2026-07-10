@@ -12,7 +12,23 @@ public class ConfirmExitPanelUI : MonoBehaviour
         yesBtn.onClick.AddListener(() =>
         {
             int buildIndex = SceneManager.GetActiveScene().buildIndex;
+            if(buildIndex == 4)
+            {
+                BoostrapManager.Instance.ShowLoading();
+                GameManager.Instance.DeclineRematchServerRpc();
+            }
+            else if(buildIndex == 3)
+            {
+                LobbyManager.Instance.LeaveLobby();
+            }
+            else if(buildIndex == 1)
+            {
+                Application.Quit();
+                return;
+            }
+
             SceneManager.LoadScene(buildIndex - 1);
+
         });
 
         noBtn.onClick.AddListener(() =>

@@ -1776,11 +1776,8 @@ MonoBehaviour:
   - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  joinRoomPanel: {fileID: 2064319466}
   roomCodeInputComp: {fileID: 1504005847}
   roomCodeErrorTxtComp: {fileID: 765404696}
-  joinRoomConfirmBtn: {fileID: 817141029}
-  joinRoomPanelCancelBtn: {fileID: 258294819}
   backBtn: {fileID: 987353489}
   settingsBtn: {fileID: 1079801250}
 --- !u!1 &1303173070

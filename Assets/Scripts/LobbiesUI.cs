@@ -16,11 +16,8 @@ public class LobbiesUI : MonoBehaviour
     [SerializeField] private Sprite[] roomAvatars;
 
 
-    [SerializeField] private GameObject joinRoomPanel;
     [SerializeField] private TMP_InputField roomCodeInputComp;
     [SerializeField] private TextMeshProUGUI roomCodeErrorTxtComp;
-    [SerializeField] private Button joinRoomConfirmBtn;
-    [SerializeField] private Button joinRoomPanelCancelBtn;
     [SerializeField] private List<Lobby> listedLobbies = new List<Lobby>();
     private string playerName;
 
@@ -34,22 +31,6 @@ public class LobbiesUI : MonoBehaviour
 
         LobbyManager.Instance.StartPollingLobbiesList();
 
-        joinRoomPanelCancelBtn.onClick.AddListener(() =>
-        {
-            joinRoomPanel.SetActive(false);
-        });
-
-        joinRoomConfirmBtn.onClick.AddListener(() =>
-        {
-            string code = roomCodeInputComp.text;
-            if (string.IsNullOrEmpty(code))
-            {
-                UpdateRoomCodeError();
-                return;
-            }
-
-            JoinByCodeFlow(code, playerName);
-        });
 
         searchInputComp.onValueChanged.AddListener((value) =>
         {
@@ -63,7 +44,7 @@ public class LobbiesUI : MonoBehaviour
 
         settingsBtn.onClick.AddListener(() =>
         {
-            BoostrapManager.instance.ShowSettings();
+            BoostrapManager.Instance.ShowSettings();
         });
 
         playerName = PlayerPrefs.GetString("PlayerName", "Defalut");
@@ -85,9 +66,7 @@ public class LobbiesUI : MonoBehaviour
 
     private void LobbyManager_onLobbyJoined()
     {
-        BoostrapManager.instance.ShowLoading();
         SceneManager.LoadScene("Lobby");
-        BoostrapManager.instance.HideLoading();
     }
 
     private void ShowAvailableLobbies(string lobbyName)
@@ -113,45 +92,10 @@ public class LobbiesUI : MonoBehaviour
 
             lobbyItem.GetComponentInChildren<Button>().onClick.AddListener(() =>
             {
-                
-                if (lobby.IsPrivate)
-                {
-                    OpenRoomJoinPanel();
-                }
-                else
-                {
-                    LobbyManager.Instance.QuickJoinLobby(playerName);
-                }
-
+                BoostrapManager.Instance.ShowLoading();
+                LobbyManager.Instance.QuickJoinLobby(playerName);
             });
         }
-    }
-
-    private void OpenRoomJoinPanel()
-    {
-        joinRoomPanel.SetActive(true);
-    }
-
-    private void HideError()
-    {
-        roomCodeErrorTxtComp.gameObject.SetActive(false);
-    }
-
-    private async void JoinByCodeFlow(string code, string playerName)
-    {
-        bool isValidCode = await LobbyManager.Instance.JoinLobbyByCode(code, playerName);
-
-        if (!isValidCode)
-        {
-            UpdateRoomCodeError();
-        }
-    }
-
-    private void UpdateRoomCodeError()
-    {
-        roomCodeErrorTxtComp.text = "Code is Invalid";
-        roomCodeErrorTxtComp.gameObject.SetActive(true);
-        Invoke("HideError", 5f);
     }
 
 }

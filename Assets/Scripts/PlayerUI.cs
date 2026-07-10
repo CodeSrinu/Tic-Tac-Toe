@@ -35,7 +35,7 @@ public class PlayerUI : MonoBehaviour
 
         settingsBtn.onClick.AddListener(() =>
         {
-            BoostrapManager.instance.ShowSettings();
+            BoostrapManager.Instance.ShowSettings();
         });
     }
 

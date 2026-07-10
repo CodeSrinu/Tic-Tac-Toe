@@ -4,17 +4,17 @@ public class BoostrapManager : MonoBehaviour
 {
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private LoadingScreenManager loadingScreenManager;
-    public static BoostrapManager instance;
+    public static BoostrapManager Instance;
 
     private void Awake()
     {
-        if (instance != null && instance != this)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        instance = this;
+        Instance = this;
 
         DontDestroyOnLoad(gameObject);
         settingsPanel.SetActive(false);

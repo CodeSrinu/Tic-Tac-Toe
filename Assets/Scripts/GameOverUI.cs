@@ -14,7 +14,8 @@ public class GameOverUI : MonoBehaviour
     private void Start()
     {
         rematchBtn.onClick.AddListener(() => 
-        { 
+        {
+            BoostrapManager.Instance.ShowLoading();
             GameManager.Instance.RequestRematchServerRpc();
         });
 

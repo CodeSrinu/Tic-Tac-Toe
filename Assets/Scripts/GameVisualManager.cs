@@ -33,6 +33,8 @@ public class GameVisualManager : NetworkBehaviour
         {
             GameManager.Instance.DeclineRematchServerRpc();
         });
+
+        BoostrapManager.Instance.HideLoading();
     }
 
     private void GameManager_OnRematchRequested(object sender, System.EventArgs e)
