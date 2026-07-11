@@ -171,7 +171,6 @@ public class MainMenuUI : MonoBehaviour
         string hostName = playerNameInputComp.text.Trim();
         if(string.IsNullOrEmpty(lobbyName) || string.IsNullOrEmpty(hostName))
         {
-            Debug.Log("Enter all of the details to continue");
             return;
         }
 
@@ -191,14 +190,22 @@ public class MainMenuUI : MonoBehaviour
 
     private void UpdateInputError(TMP_InputField txtComp, TextMeshProUGUI errorTxtComp)
     {
+
+        if(errorTxtComp == roomCodeErrorTxtComp)
+        {
+            errorTxtComp.gameObject.SetActive(true);
+            Invoke("HideAllInputErrors", 10f);
+            return;
+        }
+
         string error = "";
         if (string.IsNullOrEmpty(txtComp.text))
         {
-            error = "Name Shouldn't be Empty";
+            error = "name Shouldn't be Empty";
         }
         else if (txtComp.text.Length <= 2)
         {
-            error = "Name should be more than 2 characters";
+            error = "name should be more than two characters";
         }
 
         errorTxtComp.text = error;
