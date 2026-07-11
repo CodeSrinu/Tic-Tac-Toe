@@ -1,0 +1,5746 @@
+fileFormatVersion: 2
+guid: 1c5736d38f3bd0b4a875e9498c68a572
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7148716821591849690
+    second: Dense Line for slider_0
+  - first:
+      213: -5949398130127096317
+    second: Dense Line for slider_1
+  - first:
+      213: -7380445800390020432
+    second: Dense Line for slider_2
+  - first:
+      213: 6665511182638808185
+    second: Dense Line for slider_3
+  - first:
+      213: 2074834707466247088
+    second: Dense Line for slider_4
+  - first:
+      213: -2468038503933315072
+    second: Dense Line for slider_5
+  - first:
+      213: 5584384290940975753
+    second: Dense Line for slider_6
+  - first:
+      213: 4754305462270650597
+    second: Dense Line for slider_7
+  - first:
+      213: 321609974642461250
+    second: Dense Line for slider_8
+  - first:
+      213: 5751177352024591271
+    second: Dense Line for slider_9
+  - first:
+      213: -3581226815945300490
+    second: Dense Line for slider_10
+  - first:
+      213: -4685802204222292897
+    second: Dense Line for slider_11
+  - first:
+      213: -7519818458407005223
+    second: Dense Line for slider_12
+  - first:
+      213: -6783595824252398717
+    second: Dense Line for slider_13
+  - first:
+      213: -3685358223619574675
+    second: Dense Line for slider_14
+  - first:
+      213: 3193531227250824333
+    second: Dense Line for slider_15
+  - first:
+      213: 3823316175750087363
+    second: Dense Line for slider_16
+  - first:
+      213: -4113847090551244094
+    second: Dense Line for slider_17
+  - first:
+      213: 5101619773374093567
+    second: Dense Line for slider_18
+  - first:
+      213: -2915634519839471713
+    second: Dense Line for slider_19
+  - first:
+      213: 8850472886717905936
+    second: Dense Line for slider_20
+  - first:
+      213: -376167105179168262
+    second: Dense Line for slider_21
+  - first:
+      213: -6082250964298424409
+    second: Dense Line for slider_22
+  - first:
+      213: 6057155206630324340
+    second: Dense Line for slider_23
+  - first:
+      213: 142013737014378929
+    second: Dense Line for slider_24
+  - first:
+      213: -4165981640650310598
+    second: Dense Line for slider_25
+  - first:
+      213: -8047013200351730450
+    second: Dense Line for slider_26
+  - first:
+      213: -3097045962233606269
+    second: Dense Line for slider_27
+  - first:
+      213: 207021200346827080
+    second: Dense Line for slider_28
+  - first:
+      213: -869421948748332071
+    second: Dense Line for slider_29
+  - first:
+      213: 1686937569818165263
+    second: Dense Line for slider_30
+  - first:
+      213: -6843974000329209339
+    second: Dense Line for slider_31
+  - first:
+      213: 3289050084230814872
+    second: Dense Line for slider_32
+  - first:
+      213: -5247336519276180330
+    second: Dense Line for slider_33
+  - first:
+      213: -5164801065013258807
+    second: Dense Line for slider_34
+  - first:
+      213: -8673363277208239955
+    second: Dense Line for slider_35
+  - first:
+      213: 9011011239700841343
+    second: Dense Line for slider_36
+  - first:
+      213: 2481191307318066800
+    second: Dense Line for slider_37
+  - first:
+      213: 8493064200108398297
+    second: Dense Line for slider_38
+  - first:
+      213: 8352754275757247513
+    second: Dense Line for slider_39
+  - first:
+      213: 4112276315207040429
+    second: Dense Line for slider_40
+  - first:
+      213: -7613375960294344693
+    second: Dense Line for slider_41
+  - first:
+      213: 5476402379051042993
+    second: Dense Line for slider_42
+  - first:
+      213: 6342412458379929401
+    second: Dense Line for slider_43
+  - first:
+      213: 781400286237646906
+    second: Dense Line for slider_44
+  - first:
+      213: 7663632769177201867
+    second: Dense Line for slider_45
+  - first:
+      213: 4951535374802549531
+    second: Dense Line for slider_46
+  - first:
+      213: 4367337891815778678
+    second: Dense Line for slider_47
+  - first:
+      213: -3466334031967633127
+    second: Dense Line for slider_48
+  - first:
+      213: 1775790855311497631
+    second: Dense Line for slider_49
+  - first:
+      213: 6684665482482276489
+    second: Dense Line for slider_50
+  - first:
+      213: 8390080783533203174
+    second: Dense Line for slider_51
+  - first:
+      213: -1681072849011590052
+    second: Dense Line for slider_52
+  - first:
+      213: 2571805857824899697
+    second: Dense Line for slider_53
+  - first:
+      213: -6372214277211809495
+    second: Dense Line for slider_54
+  - first:
+      213: 1043912891530097596
+    second: Dense Line for slider_55
+  - first:
+      213: 1037880003843758757
+    second: Dense Line for slider_56
+  - first:
+      213: -8385248284495163224
+    second: Dense Line for slider_57
+  - first:
+      213: -7078749757515094935
+    second: Dense Line for slider_58
+  - first:
+      213: 7192139438960396023
+    second: Dense Line for slider_59
+  - first:
+      213: 2771232242060909322
+    second: Dense Line for slider_60
+  - first:
+      213: -4142029805129638030
+    second: Dense Line for slider_61
+  - first:
+      213: -6296167083533545549
+    second: Dense Line for slider_62
+  - first:
+      213: 3463806895865382757
+    second: Dense Line for slider_63
+  - first:
+      213: 444633495739617277
+    second: Dense Line for slider_64
+  - first:
+      213: 5821299353160165998
+    second: Dense Line for slider_65
+  - first:
+      213: -4593786673975740295
+    second: Dense Line for slider_66
+  - first:
+      213: -7243887130618883025
+    second: Dense Line for slider_67
+  - first:
+      213: 6823330597676228964
+    second: Dense Line for slider_68
+  - first:
+      213: -5141968235733400392
+    second: Dense Line for slider_69
+  - first:
+      213: -2412140484507804277
+    second: Dense Line for slider_70
+  - first:
+      213: 7653064883997871098
+    second: Dense Line for slider_71
+  - first:
+      213: 3659413801535144866
+    second: Dense Line for slider_72
+  - first:
+      213: 3151264930762747238
+    second: Dense Line for slider_73
+  - first:
+      213: 8021456735424973358
+    second: Dense Line for slider_74
+  - first:
+      213: -5180665312162957491
+    second: Dense Line for slider_75
+  - first:
+      213: -2586778500392996602
+    second: Dense Line for slider_76
+  - first:
+      213: 1525212000958067699
+    second: Dense Line for slider_77
+  - first:
+      213: -8257043359674413777
+    second: Dense Line for slider_78
+  - first:
+      213: 3566486926211654801
+    second: Dense Line for slider_79
+  - first:
+      213: -6206972820662805779
+    second: Dense Line for slider_80
+  - first:
+      213: 6518159495743667457
+    second: Dense Line for slider_81
+  - first:
+      213: -1556585292959922855
+    second: Dense Line for slider_82
+  - first:
+      213: -3260358446474045165
+    second: Dense Line for slider_83
+  - first:
+      213: -4135023983530294295
+    second: Dense Line for slider_84
+  - first:
+      213: 4568577198696758898
+    second: Dense Line for slider_85
+  - first:
+      213: -4545475701070681547
+    second: Dense Line for slider_86
+  - first:
+      213: -3417009257912109097
+    second: Dense Line for slider_87
+  - first:
+      213: 1190698234504581936
+    second: Dense Line for slider_88
+  - first:
+      213: 6602006009792655293
+    second: Dense Line for slider_89
+  - first:
+      213: 5563077433103025893
+    second: Dense Line for slider_90
+  - first:
+      213: 8192827932094622733
+    second: Dense Line for slider_91
+  - first:
+      213: -4262156055614334933
+    second: Dense Line for slider_92
+  - first:
+      213: -6602167012206021017
+    second: Dense Line for slider_93
+  - first:
+      213: -4057891370143293769
+    second: Dense Line for slider_94
+  - first:
+      213: -3174890887637930433
+    second: Dense Line for slider_95
+  - first:
+      213: 4126175303722865964
+    second: Dense Line for slider_96
+  - first:
+      213: -9070001544843364494
+    second: Dense Line for slider_97
+  - first:
+      213: 5540190989103640210
+    second: Dense Line for slider_98
+  - first:
+      213: -6639031701835124023
+    second: Dense Line for slider_99
+  - first:
+      213: -5861273480144923156
+    second: Dense Line for slider_100
+  - first:
+      213: -3132130434968652704
+    second: Dense Line for slider_101
+  - first:
+      213: -8519696261283263320
+    second: Dense Line for slider_102
+  - first:
+      213: -4801914094358579780
+    second: Dense Line for slider_103
+  - first:
+      213: 1078544758021040526
+    second: Dense Line for slider_104
+  - first:
+      213: -7527379930769947160
+    second: Dense Line for slider_105
+  - first:
+      213: -8960067556313777731
+    second: Dense Line for slider_106
+  - first:
+      213: -2605370609676426605
+    second: Dense Line for slider_107
+  - first:
+      213: 8204791017119673359
+    second: Dense Line for slider_108
+  - first:
+      213: -2887040714532104254
+    second: Dense Line for slider_109
+  - first:
+      213: -7538085715648177264
+    second: Dense Line for slider_110
+  - first:
+      213: 1452496194100751456
+    second: Dense Line for slider_111
+  - first:
+      213: 1349623080267154890
+    second: Dense Line for slider_112
+  - first:
+      213: 7690213318535787567
+    second: Dense Line for slider_113
+  - first:
+      213: 5519377143778465986
+    second: Dense Line for slider_114
+  - first:
+      213: -7334931792584066567
+    second: Dense Line for slider_115
+  - first:
+      213: 3730830917211253117
+    second: Dense Line for slider_116
+  - first:
+      213: -8079024479027561100
+    second: Dense Line for slider_117
+  - first:
+      213: 78499509992487928
+    second: Dense Line for slider_118
+  - first:
+      213: 1729633603924707819
+    second: Dense Line for slider_119
+  - first:
+      213: 213929285472184472
+    second: Dense Line for slider_120
+  - first:
+      213: 3326316392440953319
+    second: Dense Line for slider_121
+  - first:
+      213: 4949609158301109409
+    second: Dense Line for slider_122
+  - first:
+      213: 8988375152170601305
+    second: Dense Line for slider_123
+  - first:
+      213: -2858428084618948541
+    second: Dense Line for slider_124
+  - first:
+      213: 8354880535697098576
+    second: Dense Line for slider_125
+  - first:
+      213: -2662153218372679233
+    second: Dense Line for slider_126
+  - first:
+      213: 2648179491474719483
+    second: Dense Line for slider_127
+  - first:
+      213: 3538721327341560893
+    second: Dense Line for slider_128
+  - first:
+      213: 9197007404621472386
+    second: Dense Line for slider_129
+  - first:
+      213: 3544375503465783849
+    second: Dense Line for slider_130
+  - first:
+      213: -8298841590180369553
+    second: Dense Line for slider_131
+  - first:
+      213: -6897136998374809188
+    second: Dense Line for slider_132
+  - first:
+      213: 5496779092948201792
+    second: Dense Line for slider_133
+  - first:
+      213: 879209385610687413
+    second: Dense Line for slider_134
+  - first:
+      213: 4400823762505663625
+    second: Dense Line for slider_135
+  - first:
+      213: 6291884216045671770
+    second: Dense Line for slider_136
+  - first:
+      213: 3864258663060640580
+    second: Dense Line for slider_137
+  - first:
+      213: 4101633286287274914
+    second: Dense Line for slider_138
+  - first:
+      213: 3718816195021511847
+    second: Dense Line for slider_139
+  - first:
+      213: -8652780893409011115
+    second: Dense Line for slider_140
+  - first:
+      213: 2556916234418477331
+    second: Dense Line for slider_141
+  - first:
+      213: 4966389742824354178
+    second: Dense Line for slider_142
+  - first:
+      213: 7524889660244467838
+    second: Dense Line for slider_143
+  - first:
+      213: 8914158071201304242
+    second: Dense Line for slider_144
+  - first:
+      213: -6351711474113629592
+    second: Dense Line for slider_145
+  - first:
+      213: 8565674225992373291
+    second: Dense Line for slider_146
+  - first:
+      213: -67406080702341991
+    second: Dense Line for slider_147
+  - first:
+      213: 4698929689283998618
+    second: Dense Line for slider_148
+  - first:
+      213: 8246095122117965078
+    second: Dense Line for slider_149
+  - first:
+      213: 2319874153486708886
+    second: Dense Line for slider_150
+  - first:
+      213: 6174996662734448445
+    second: Dense Line for slider_151
+  - first:
+      213: -7045180398307849669
+    second: Dense Line for slider_152
+  - first:
+      213: 1962620508682578424
+    second: Dense Line for slider_153
+  - first:
+      213: -8552014607099135964
+    second: Dense Line for slider_154
+  - first:
+      213: -7650159215600909359
+    second: Dense Line for slider_155
+  - first:
+      213: -558367586732260194
+    second: Dense Line for slider_156
+  - first:
+      213: 1717913390402625393
+    second: Dense Line for slider_157
+  - first:
+      213: -2637257122352227633
+    second: Dense Line for slider_158
+  - first:
+      213: 6544414165982449035
+    second: Dense Line for slider_159
+  - first:
+      213: -170064305491171270
+    second: Dense Line for slider_160
+  - first:
+      213: -2936312691084658067
+    second: Dense Line for slider_161
+  - first:
+      213: 7717820228341683920
+    second: Dense Line for slider_162
+  - first:
+      213: 2646503461022679391
+    second: Dense Line for slider_163
+  - first:
+      213: 5226934836226093949
+    second: Dense Line for slider_164
+  - first:
+      213: -1762583536909198228
+    second: Dense Line for slider_165
+  - first:
+      213: 4794988888002696232
+    second: Dense Line for slider_166
+  - first:
+      213: -7412358958864341900
+    second: Dense Line for slider_167
+  - first:
+      213: 8194602078037706917
+    second: Dense Line for slider_168
+  - first:
+      213: -8212884166090304227
+    second: Dense Line for slider_169
+  - first:
+      213: 2861070537198893892
+    second: Dense Line for slider_170
+  - first:
+      213: 274908753701188575
+    second: Dense Line for slider_171
+  - first:
+      213: 6795945663262858666
+    second: Dense Line for slider_172
+  - first:
+      213: 1851340360881483378
+    second: Dense Line for slider_173
+  - first:
+      213: 8934662438983005959
+    second: Dense Line for slider_174
+  - first:
+      213: 8452151313304821815
+    second: Dense Line for slider_175
+  - first:
+      213: -2064000983436841883
+    second: Dense Line for slider_176
+  - first:
+      213: 7084971023643974023
+    second: Dense Line for slider_177
+  - first:
+      213: 669446743685109849
+    second: Dense Line for slider_178
+  - first:
+      213: -6229257701546719512
+    second: Dense Line for slider_179
+  - first:
+      213: 3631808616454002022
+    second: Dense Line for slider_180
+  - first:
+      213: -5846314744413406805
+    second: Dense Line for slider_181
+  - first:
+      213: 1994414747583479659
+    second: Dense Line for slider_182
+  - first:
+      213: -565195225933082878
+    second: Dense Line for slider_183
+  - first:
+      213: 3735265981357472832
+    second: Dense Line for slider_184
+  - first:
+      213: 808446349571446428
+    second: Dense Line for slider_185
+  - first:
+      213: -8552463571847641912
+    second: Dense Line for slider_186
+  - first:
+      213: -7426409187446454096
+    second: Dense Line for slider_187
+  - first:
+      213: -3458307245917716113
+    second: Dense Line for slider_188
+  - first:
+      213: -8595571706996374815
+    second: Dense Line for slider_189
+  - first:
+      213: -3874973176871477071
+    second: Dense Line for slider_190
+  - first:
+      213: 6109862717222914592
+    second: Dense Line for slider_191
+  - first:
+      213: -5487730397457602419
+    second: Dense Line for slider_192
+  - first:
+      213: -8808417484110055969
+    second: Dense Line for slider_193
+  - first:
+      213: -5529827860765971881
+    second: Dense Line for slider_194
+  - first:
+      213: 3894923725857150100
+    second: Dense Line for slider_195
+  - first:
+      213: 5693262658798367815
+    second: Dense Line for slider_196
+  - first:
+      213: -3962788455616211320
+    second: Dense Line for slider_197
+  - first:
+      213: 911868984091393362
+    second: Dense Line for slider_198
+  - first:
+      213: 88859555616679020
+    second: Dense Line for slider_199
+  - first:
+      213: 845772458536861539
+    second: Dense Line for slider_200
+  - first:
+      213: 49551104846749935
+    second: Dense Line for slider_201
+  - first:
+      213: -1485808061740762617
+    second: Dense Line for slider_202
+  - first:
+      213: 3832843667589276715
+    second: Dense Line for slider_203
+  - first:
+      213: -6225024494165339043
+    second: Dense Line for slider_204
+  - first:
+      213: -1687490149543750258
+    second: Dense Line for slider_205
+  - first:
+      213: -3180138136477041122
+    second: Dense Line for slider_206
+  - first:
+      213: -2748401646048647674
+    second: Dense Line for slider_207
+  - first:
+      213: -4961158124787373024
+    second: Dense Line for slider_208
+  - first:
+      213: -725038126324425722
+    second: Dense Line for slider_209
+  - first:
+      213: 1131692088405952044
+    second: Dense Line for slider_210
+  - first:
+      213: -6643752700552831975
+    second: Dense Line for slider_211
+  - first:
+      213: -1629181343331431900
+    second: Dense Line for slider_212
+  - first:
+      213: 4324726650805758180
+    second: Dense Line for slider_213
+  - first:
+      213: 8888947473135656248
+    second: Dense Line for slider_214
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dense Line for slider_0
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 122
+        width: 333
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62588212de7aacc90800000000000000
+      internalID: -7148716821591849690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306b6620ced7f6da0800000000000000
+      internalID: -5949398130127096317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2bab7d5a3639990800000000000000
+      internalID: -7380445800390020432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 181
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c749fea17a08c50800000000000000
+      internalID: 6665511182638808185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 196
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb5d2a6c2b4bcc10800000000000000
+      internalID: 2074834707466247088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 193
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00871119e04cfbdd0800000000000000
+      internalID: -2468038503933315072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 183
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98afecedce7bf7d40800000000000000
+      internalID: 5584384290940975753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 175
+        width: 73
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e86758e0afaaf140800000000000000
+      internalID: 4754305462270650597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 191
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a49c66196967400800000000000000
+      internalID: 321609974642461250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab82b3a45940df40800000000000000
+      internalID: 5751177352024591271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 190
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f52a7f5f2dec4ec0800000000000000
+      internalID: -3581226815945300490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 196
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c7691c8bfa8feb0800000000000000
+      internalID: -4685802204222292897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 191
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3993b24fc34a790800000000000000
+      internalID: -7519818458407005223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 188
+        width: 45
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383dc93f983dbd1a0800000000000000
+      internalID: -6783595824252398717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 185
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d643713b83afadcc0800000000000000
+      internalID: -3685358223619574675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 194
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84176b2bb3b15c20800000000000000
+      internalID: 3193531227250824333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 183
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2c6971ec52f0530800000000000000
+      internalID: 3823316175750087363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 193
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca3b630edda8e6c0800000000000000
+      internalID: -4113847090551244094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_18
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 180
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8521387289cc640800000000000000
+      internalID: 5101619773374093567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_19
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 196
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970a161ad59987d0800000000000000
+      internalID: -2915634519839471713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 196
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cfb0bd23233da70800000000000000
+      internalID: 8850472886717905936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_21
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 193
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1db97c20697caf0800000000000000
+      internalID: -376167105179168262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_22
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 184
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af173e19f0879ba0800000000000000
+      internalID: -6082250964298424409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 185
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478bb9871965f0450800000000000000
+      internalID: 6057155206630324340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_24
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 198
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c7fbcdb888f100800000000000000
+      internalID: 142013737014378929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_25
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 199
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c3d3825c57f26c0800000000000000
+      internalID: -4165981640650310598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 189
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4e7221124435090800000000000000
+      internalID: -8047013200351730450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_27
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 186
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f02003b151505d0800000000000000
+      internalID: -3097045962233606269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_28
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 190
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849c5a35fac7fd200800000000000000
+      internalID: 207021200346827080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_29
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 189
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d38de018513fe3f0800000000000000
+      internalID: -869421948748332071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_30
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 188
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00c54f28c4396710800000000000000
+      internalID: 1686937569818165263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_31
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 184
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a4e5a58e15501a0800000000000000
+      internalID: -6843974000329209339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_32
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 179
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cdb0f10ad05ad20800000000000000
+      internalID: 3289050084230814872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 154
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ccb9fbc37bd27b0800000000000000
+      internalID: -5247336519276180330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_34
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 165
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c55350bbc0f258b0800000000000000
+      internalID: -5164801065013258807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_35
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 157
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0c5168d0602a780800000000000000
+      internalID: -8673363277208239955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_36
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 177
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73cb69eafa8d0d70800000000000000
+      internalID: 9011011239700841343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_37
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 166
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07efa7c1956fe6220800000000000000
+      internalID: 2481191307318066800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_38
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 168
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d65c0e44ec6dd570800000000000000
+      internalID: 8493064200108398297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_39
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 185
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cc2ae42c1fae370800000000000000
+      internalID: 8352754275757247513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_40
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 166
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadfa2a558db11930800000000000000
+      internalID: 4112276315207040429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_41
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 175
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b083829c6ead75690800000000000000
+      internalID: -7613375960294344693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_42
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 188
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b80172d2f6100c40800000000000000
+      internalID: 5476402379051042993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_43
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 174
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9376fb00786c40850800000000000000
+      internalID: 6342412458379929401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 169
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3065989b6718da00800000000000000
+      internalID: 781400286237646906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_45
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 154
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcca9df5661ba5a60800000000000000
+      internalID: 7663632769177201867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_46
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 171
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bf2e3603367b440800000000000000
+      internalID: 4951535374802549531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 169
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67968c76ca6eb9c30800000000000000
+      internalID: 4367337891815778678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_48
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 147
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911c8b7309b15efc0800000000000000
+      internalID: -3466334031967633127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_49
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 165
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f999a36df50e4a810800000000000000
+      internalID: 1775790855311497631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 171
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988dba5e6d3b4cc50800000000000000
+      internalID: 6684665482482276489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 172
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eed353250e8f6470800000000000000
+      internalID: 8390080783533203174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 162
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c3c198621aba8e0800000000000000
+      internalID: -1681072849011590052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_53
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 170
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1720cea3dc3e0b320800000000000000
+      internalID: 2571805857824899697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_54
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 152
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9291e1650e85197a0800000000000000
+      internalID: -6372214277211809495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_55
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 163
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb33a147e39bc7e00800000000000000
+      internalID: 1043912891530097596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_56
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 174
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa96945d5a476e00800000000000000
+      internalID: 1037880003843758757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_57
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 174
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a05639bc1d91ab80800000000000000
+      internalID: -8385248284495163224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_58
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 169
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9642e61b99a33cd90800000000000000
+      internalID: -7078749757515094935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_59
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 163
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6cf42d6bc9fc360800000000000000
+      internalID: 7192139438960396023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_60
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 155
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b5622aa05657620800000000000000
+      internalID: 2771232242060909322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_61
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 176
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fda2076dd8486c0800000000000000
+      internalID: -4142029805129638030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_62
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 146
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfc97365658f98a0800000000000000
+      internalID: -6296167083533545549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_63
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 157
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567ca9e050ae11030800000000000000
+      internalID: 3463806895865382757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_64
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 171
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffccc00fc7ab2600800000000000000
+      internalID: 444633495739617277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_65
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 168
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6aa25c4be869c050800000000000000
+      internalID: 5821299353160165998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_66
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 170
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978b0c3eb579f30c0800000000000000
+      internalID: -4593786673975740295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_67
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 173
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f241072d80b887b90800000000000000
+      internalID: -7243887130618883025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_68
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 160
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461ab8be60751be50800000000000000
+      internalID: 6823330597676228964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_69
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 160
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4c4c6022f04a8b0800000000000000
+      internalID: -5141968235733400392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_70
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 175
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dd298620b568ed0800000000000000
+      internalID: -2412140484507804277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_71
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 159
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb85bdd6f5253a60800000000000000
+      internalID: 7653064883997871098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_72
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 149
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a30aaec679d8c230800000000000000
+      internalID: 3659413801535144866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_73
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 158
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d624722ca8bbb20800000000000000
+      internalID: 3151264930762747238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 145
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a8b20c660f15f60800000000000000
+      internalID: 8021456735424973358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 161
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47b650d8549a18b0800000000000000
+      internalID: -5180665312162957491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_76
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 144
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6013573c8aae91cd0800000000000000
+      internalID: -2586778500392996602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_77
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 150
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3b444eb34aa2510800000000000000
+      internalID: 1525212000958067699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_78
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 160
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dcb93efc6196d80800000000000000
+      internalID: -8257043359674413777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 154
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194abec96f4be7130800000000000000
+      internalID: 3566486926211654801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_80
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 147
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea93e50b176cd9a0800000000000000
+      internalID: -6206972820662805779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 147
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10df325d687257a50800000000000000
+      internalID: 6518159495743667457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_82
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 151
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955c6865ce5e56ae0800000000000000
+      internalID: -1556585292959922855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_83
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 147
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319587d5441e0c2d0800000000000000
+      internalID: -3260358446474045165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_84
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 157
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3c4f368917d96c0800000000000000
+      internalID: -4135023983530294295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_85
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 146
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ef441c1c8d66f30800000000000000
+      internalID: 4568577198696758898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_86
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 147
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a238ecee93be0c0800000000000000
+      internalID: -4545475701070681547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_87
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 161
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77deb1f285490d0800000000000000
+      internalID: -3417009257912109097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_88
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 150
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03394565cb5368010800000000000000
+      internalID: 1190698234504581936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_89
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 146
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf6faaac790f9b50800000000000000
+      internalID: 6602006009792655293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_90
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 155
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e609127375043d40800000000000000
+      internalID: 5563077433103025893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_91
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 162
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ce566c895c2b170800000000000000
+      internalID: 8192827932094622733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_92
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 158
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28d3d736a7c9d4c0800000000000000
+      internalID: -4262156055614334933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_93
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 153
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76678a905146064a0800000000000000
+      internalID: -6602167012206021017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_94
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 150
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be5c796c497fa7c0800000000000000
+      internalID: -4057891370143293769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_95
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 157
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e67b91f8580f3d0800000000000000
+      internalID: -3174890887637930433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_96
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 134
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25146bc39e134930800000000000000
+      internalID: 4126175303722865964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_97
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 132
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277fd5f56a1e02280800000000000000
+      internalID: -9070001544843364494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_98
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 149
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ea755f956b2ec40800000000000000
+      internalID: 5540190989103640210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_99
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 137
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c27f8f97db6dd3a0800000000000000
+      internalID: -6639031701835124023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_100
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 141
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce55b8cf2d298aea0800000000000000
+      internalID: -5861273480144923156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_101
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064f081d6ff6884d0800000000000000
+      internalID: -3132130434968652704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_102
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 134
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acccffb365f3c980800000000000000
+      internalID: -8519696261283263320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_103
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 136
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5b0d3a29c2c5db0800000000000000
+      internalID: -4801914094358579780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_104
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 132
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8924383eb2c7fe00800000000000000
+      internalID: 1078544758021040526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_105
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 143
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e58d01b5df598790800000000000000
+      internalID: -7527379930769947160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_106
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 135
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db93a6ea70277a380800000000000000
+      internalID: -8960067556313777731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_107
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 145
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926efdfb3dd7dbd0800000000000000
+      internalID: -2605370609676426605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_108
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 147
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cebbf85f54dd170800000000000000
+      internalID: 8204791017119673359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_109
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 136
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7593e24cb2fe7d0800000000000000
+      internalID: -2887040714532104254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_110
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b1858eaf6536790800000000000000
+      internalID: -7538085715648177264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_111
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 134
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c6bf6c79d482410800000000000000
+      internalID: 1452496194100751456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_112
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 130
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac50ef77a03dab210800000000000000
+      internalID: 1349623080267154890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_113
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 148
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24bd4ac44029ba60800000000000000
+      internalID: 7690213318535787567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_114
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 141
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c85354f444c89c40800000000000000
+      internalID: 5519377143778465986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_115
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 146
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9be439566153a90800000000000000
+      internalID: -7334931792584066567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_116
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79eb61d3f296c330800000000000000
+      internalID: 3730830917211253117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_117
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d70e37a0a81ef80800000000000000
+      internalID: -8079024479027561100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_118
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 131
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf42073e2e61100800000000000000
+      internalID: 78499509992487928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_119
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 142
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9c2894994e00810800000000000000
+      internalID: 1729633603924707819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_120
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 141
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8986f9b3d8708f200800000000000000
+      internalID: 213929285472184472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_121
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 131
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e97006a223792e20800000000000000
+      internalID: 3326316392440953319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_122
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 140
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acce892e4b80b440800000000000000
+      internalID: 4949609158301109409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_123
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 135
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b8315149f1dbc70800000000000000
+      internalID: 8988375152170601305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_124
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 137
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34099483dc2d458d0800000000000000
+      internalID: -2858428084618948541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_125
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 137
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0570d07c49f72f370800000000000000
+      internalID: 8354880535697098576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_126
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 140
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9cb39a0c12e0bd0800000000000000
+      internalID: -2662153218372679233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_127
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf243d2873930c420800000000000000
+      internalID: 2648179491474719483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_128
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 134
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34ea4b5c401c1130800000000000000
+      internalID: 3538721327341560893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_129
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 124
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282a915b18552af70800000000000000
+      internalID: 9197007404621472386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_130
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 130
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922aca2ddb6203130800000000000000
+      internalID: 3544375503465783849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_131
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 129
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6baf0afa8794dc80800000000000000
+      internalID: -8298841590180369553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 132
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916aac41727840a0800000000000000
+      internalID: -6897136998374809188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_133
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041b8fb367b784c40800000000000000
+      internalID: 5496779092948201792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_134
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 117
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3b3882744933c00800000000000000
+      internalID: 879209385610687413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_135
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 122
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9848f3b35edd21d30800000000000000
+      internalID: 4400823762505663625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_136
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 120
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a551a41db53415750800000000000000
+      internalID: 6291884216045671770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_137
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 108
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44394f3c7ca90a530800000000000000
+      internalID: 3864258663060640580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_138
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 134
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a332141ebdebe830800000000000000
+      internalID: 4101633286287274914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_139
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 128
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac1a3150a3eb9330800000000000000
+      internalID: 3718816195021511847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_140
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 127
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a91113f952be780800000000000000
+      internalID: -8652780893409011115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_141
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 127
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31951f0a4cdfb7320800000000000000
+      internalID: 2556916234418477331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_142
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 124
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281703578292ce440800000000000000
+      internalID: 4966389742824354178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_143
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 132
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70a1e40747cd6860800000000000000
+      internalID: 7524889660244467838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_144
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 122
+        width: 48
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be82a9598375bb70800000000000000
+      internalID: 8914158071201304242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_145
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 136
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8623fad21103ad7a0800000000000000
+      internalID: -6351711474113629592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_146
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 117
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b249efd53536fd670800000000000000
+      internalID: 8565674225992373291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_147
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 131
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c1908d686801ff0800000000000000
+      internalID: -67406080702341991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_148
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 133
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a933f4a08a3f53140800000000000000
+      internalID: 4698929689283998618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_149
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 108
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6153ce9e2d3007270800000000000000
+      internalID: 8246095122117965078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_150
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 108
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6907f2a5049d13020800000000000000
+      internalID: 2319874153486708886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_151
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 116
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37628b8fbef1b550800000000000000
+      internalID: 6174996662734448445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_152
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 108
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ac05431cd7a3e90800000000000000
+      internalID: -7045180398307849669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_153
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 109
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ebe844f0ac3b10800000000000000
+      internalID: 1962620508682578424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_154
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 114
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42877ed7604215980800000000000000
+      internalID: -8552014607099135964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_155
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 110
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d34de6c9bc25d590800000000000000
+      internalID: -7650159215600909359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_156
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 86
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e944bb263a74048f0800000000000000
+      internalID: -558367586732260194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_157
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 121
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd5dd602147d710800000000000000
+      internalID: 1717913390402625393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_158
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca93d8be94966bd0800000000000000
+      internalID: -2637257122352227633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_159
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 106
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d0b6a920e62da50800000000000000
+      internalID: 6544414165982449035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_160
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 114
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38a93a4a6fc3adf0800000000000000
+      internalID: -170064305491171270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_161
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 101
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a7d6a2a2f1047d0800000000000000
+      internalID: -2936312691084658067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_162
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 111
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d651ae5b943b1b60800000000000000
+      internalID: 7717820228341683920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_163
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 110
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51491340e44ab420800000000000000
+      internalID: 2646503461022679391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_164
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 106
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73fe514a8dc98840800000000000000
+      internalID: 5226934836226093949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_165
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 111
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c539b9c9b0a87e0800000000000000
+      internalID: -1762583536909198228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_166
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 110
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824985b1df83b8240800000000000000
+      internalID: 4794988888002696232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_167
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 115
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e43d9cc2022990800000000000000
+      internalID: -7412358958864341900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_168
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 118
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a88d115c2319b170800000000000000
+      internalID: 8194602078037706917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_169
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 107
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15d1ca5d59f50e80800000000000000
+      internalID: -8212884166090304227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_170
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 122
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b7317be7094b720800000000000000
+      internalID: 2861070537198893892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_171
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 112
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd331021e0ca0d300800000000000000
+      internalID: 274908753701188575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_172
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 106
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad93a3039c005e50800000000000000
+      internalID: 6795945663262858666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_173
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 114
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e2fa8df3841b910800000000000000
+      internalID: 1851340360881483378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_174
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 116
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7077b9f762c4efb70800000000000000
+      internalID: 8934662438983005959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_175
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 118
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730a26986d21c4570800000000000000
+      internalID: 8452151313304821815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_176
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 103
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ca0368a023b53e0800000000000000
+      internalID: -2064000983436841883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_177
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 93
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7891c34bb9fd25260800000000000000
+      internalID: 7084971023643974023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_178
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 94
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9589469344a5a4900800000000000000
+      internalID: 669446743685109849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_179
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 110
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e601fcdf1b3d89a0800000000000000
+      internalID: -6229257701546719512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_180
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 92
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66591fbc1b6c66230800000000000000
+      internalID: 3631808616454002022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_181
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 114
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba93c1e07b7bddea0800000000000000
+      internalID: -5846314744413406805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_182
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 103
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f738465a59dab10800000000000000
+      internalID: 1994414747583479659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_183
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 90
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f0381cfe50828f0800000000000000
+      internalID: -565195225933082878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_184
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 94
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb968ae9456d330800000000000000
+      internalID: 3735265981357472832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_185
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 89
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96da2eebad283b00800000000000000
+      internalID: 808446349571446428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_186
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 92
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c48d8db1bb8f4980800000000000000
+      internalID: -8552463571847641912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_187
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 90
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b88e89d03810f890800000000000000
+      internalID: -7426409187446454096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_188
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 94
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614aeaf1ef9100d0800000000000000
+      internalID: -3458307245917716113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_189
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 93
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e24513e21566b880800000000000000
+      internalID: -8595571706996374815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_190
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a8661d64593ac0800000000000000
+      internalID: -3874973176871477071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_191
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 92
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a897615c79ac450800000000000000
+      internalID: 6109862717222914592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_192
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 91
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d882d6c574aa7d3b0800000000000000
+      internalID: -5487730397457602419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_193
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 93
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5b74a97f632c580800000000000000
+      internalID: -8808417484110055969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_194
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 94
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a6cf1ebda1243b0800000000000000
+      internalID: -5529827860765971881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_195
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 96
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d4f21e7c8d0630800000000000000
+      internalID: 3894923725857150100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_196
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 95
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7443ca65938820f40800000000000000
+      internalID: 5693262658798367815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_197
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 95
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8861af635e85109c0800000000000000
+      internalID: -3962788455616211320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_198
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 92
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25db67e720c97ac00800000000000000
+      internalID: 911868984091393362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_199
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 94
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c646e678b41bb3100800000000000000
+      internalID: 88859555616679020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_200
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 89
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ff5e7e199ccbb00800000000000000
+      internalID: 845772458536861539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_201
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 93
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06e92a77a00b000800000000000000
+      internalID: 49551104846749935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_202
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 90
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab783a079516be0800000000000000
+      internalID: -1485808061740762617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_203
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 92
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24a346220ff03530800000000000000
+      internalID: 3832843667589276715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_204
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 92
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d545b2344354c99a0800000000000000
+      internalID: -6225024494165339043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_205
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 95
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85597256a4d498e0800000000000000
+      internalID: -1687490149543750258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_206
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 88
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1efc96c631edd3d0800000000000000
+      internalID: -3180138136477041122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_207
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606eb2bb347bbd9d0800000000000000
+      internalID: -2748401646048647674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_208
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 101
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c618988fc662bb0800000000000000
+      internalID: -4961158124787373024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_209
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 93
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c51df5aa520f5f0800000000000000
+      internalID: -725038126324425722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_210
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 92
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c268e8c55f394bf00800000000000000
+      internalID: 1131692088405952044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_211
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c91047e16acc3a0800000000000000
+      internalID: -6643752700552831975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_212
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 96
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a4904333cf369e0800000000000000
+      internalID: -1629181343331431900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_213
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 94
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e821fbb9f3840c30800000000000000
+      internalID: 4324726650805758180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dense Line for slider_214
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 96
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d5b5391a2eb5b70800000000000000
+      internalID: 8888947473135656248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7eab38516d6601640ba5c6ec552a52fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dense Line for slider_0: -7148716821591849690
+      Dense Line for slider_1: -5949398130127096317
+      Dense Line for slider_10: -3581226815945300490
+      Dense Line for slider_100: -5861273480144923156
+      Dense Line for slider_101: -3132130434968652704
+      Dense Line for slider_102: -8519696261283263320
+      Dense Line for slider_103: -4801914094358579780
+      Dense Line for slider_104: 1078544758021040526
+      Dense Line for slider_105: -7527379930769947160
+      Dense Line for slider_106: -8960067556313777731
+      Dense Line for slider_107: -2605370609676426605
+      Dense Line for slider_108: 8204791017119673359
+      Dense Line for slider_109: -2887040714532104254
+      Dense Line for slider_11: -4685802204222292897
+      Dense Line for slider_110: -7538085715648177264
+      Dense Line for slider_111: 1452496194100751456
+      Dense Line for slider_112: 1349623080267154890
+      Dense Line for slider_113: 7690213318535787567
+      Dense Line for slider_114: 5519377143778465986
+      Dense Line for slider_115: -7334931792584066567
+      Dense Line for slider_116: 3730830917211253117
+      Dense Line for slider_117: -8079024479027561100
+      Dense Line for slider_118: 78499509992487928
+      Dense Line for slider_119: 1729633603924707819
+      Dense Line for slider_12: -7519818458407005223
+      Dense Line for slider_120: 213929285472184472
+      Dense Line for slider_121: 3326316392440953319
+      Dense Line for slider_122: 4949609158301109409
+      Dense Line for slider_123: 8988375152170601305
+      Dense Line for slider_124: -2858428084618948541
+      Dense Line for slider_125: 8354880535697098576
+      Dense Line for slider_126: -2662153218372679233
+      Dense Line for slider_127: 2648179491474719483
+      Dense Line for slider_128: 3538721327341560893
+      Dense Line for slider_129: 9197007404621472386
+      Dense Line for slider_13: -6783595824252398717
+      Dense Line for slider_130: 3544375503465783849
+      Dense Line for slider_131: -8298841590180369553
+      Dense Line for slider_132: -6897136998374809188
+      Dense Line for slider_133: 5496779092948201792
+      Dense Line for slider_134: 879209385610687413
+      Dense Line for slider_135: 4400823762505663625
+      Dense Line for slider_136: 6291884216045671770
+      Dense Line for slider_137: 3864258663060640580
+      Dense Line for slider_138: 4101633286287274914
+      Dense Line for slider_139: 3718816195021511847
+      Dense Line for slider_14: -3685358223619574675
+      Dense Line for slider_140: -8652780893409011115
+      Dense Line for slider_141: 2556916234418477331
+      Dense Line for slider_142: 4966389742824354178
+      Dense Line for slider_143: 7524889660244467838
+      Dense Line for slider_144: 8914158071201304242
+      Dense Line for slider_145: -6351711474113629592
+      Dense Line for slider_146: 8565674225992373291
+      Dense Line for slider_147: -67406080702341991
+      Dense Line for slider_148: 4698929689283998618
+      Dense Line for slider_149: 8246095122117965078
+      Dense Line for slider_15: 3193531227250824333
+      Dense Line for slider_150: 2319874153486708886
+      Dense Line for slider_151: 6174996662734448445
+      Dense Line for slider_152: -7045180398307849669
+      Dense Line for slider_153: 1962620508682578424
+      Dense Line for slider_154: -8552014607099135964
+      Dense Line for slider_155: -7650159215600909359
+      Dense Line for slider_156: -558367586732260194
+      Dense Line for slider_157: 1717913390402625393
+      Dense Line for slider_158: -2637257122352227633
+      Dense Line for slider_159: 6544414165982449035
+      Dense Line for slider_16: 3823316175750087363
+      Dense Line for slider_160: -170064305491171270
+      Dense Line for slider_161: -2936312691084658067
+      Dense Line for slider_162: 7717820228341683920
+      Dense Line for slider_163: 2646503461022679391
+      Dense Line for slider_164: 5226934836226093949
+      Dense Line for slider_165: -1762583536909198228
+      Dense Line for slider_166: 4794988888002696232
+      Dense Line for slider_167: -7412358958864341900
+      Dense Line for slider_168: 8194602078037706917
+      Dense Line for slider_169: -8212884166090304227
+      Dense Line for slider_17: -4113847090551244094
+      Dense Line for slider_170: 2861070537198893892
+      Dense Line for slider_171: 274908753701188575
+      Dense Line for slider_172: 6795945663262858666
+      Dense Line for slider_173: 1851340360881483378
+      Dense Line for slider_174: 8934662438983005959
+      Dense Line for slider_175: 8452151313304821815
+      Dense Line for slider_176: -2064000983436841883
+      Dense Line for slider_177: 7084971023643974023
+      Dense Line for slider_178: 669446743685109849
+      Dense Line for slider_179: -6229257701546719512
+      Dense Line for slider_18: 5101619773374093567
+      Dense Line for slider_180: 3631808616454002022
+      Dense Line for slider_181: -5846314744413406805
+      Dense Line for slider_182: 1994414747583479659
+      Dense Line for slider_183: -565195225933082878
+      Dense Line for slider_184: 3735265981357472832
+      Dense Line for slider_185: 808446349571446428
+      Dense Line for slider_186: -8552463571847641912
+      Dense Line for slider_187: -7426409187446454096
+      Dense Line for slider_188: -3458307245917716113
+      Dense Line for slider_189: -8595571706996374815
+      Dense Line for slider_19: -2915634519839471713
+      Dense Line for slider_190: -3874973176871477071
+      Dense Line for slider_191: 6109862717222914592
+      Dense Line for slider_192: -5487730397457602419
+      Dense Line for slider_193: -8808417484110055969
+      Dense Line for slider_194: -5529827860765971881
+      Dense Line for slider_195: 3894923725857150100
+      Dense Line for slider_196: 5693262658798367815
+      Dense Line for slider_197: -3962788455616211320
+      Dense Line for slider_198: 911868984091393362
+      Dense Line for slider_199: 88859555616679020
+      Dense Line for slider_2: -7380445800390020432
+      Dense Line for slider_20: 8850472886717905936
+      Dense Line for slider_200: 845772458536861539
+      Dense Line for slider_201: 49551104846749935
+      Dense Line for slider_202: -1485808061740762617
+      Dense Line for slider_203: 3832843667589276715
+      Dense Line for slider_204: -6225024494165339043
+      Dense Line for slider_205: -1687490149543750258
+      Dense Line for slider_206: -3180138136477041122
+      Dense Line for slider_207: -2748401646048647674
+      Dense Line for slider_208: -4961158124787373024
+      Dense Line for slider_209: -725038126324425722
+      Dense Line for slider_21: -376167105179168262
+      Dense Line for slider_210: 1131692088405952044
+      Dense Line for slider_211: -6643752700552831975
+      Dense Line for slider_212: -1629181343331431900
+      Dense Line for slider_213: 4324726650805758180
+      Dense Line for slider_214: 8888947473135656248
+      Dense Line for slider_22: -6082250964298424409
+      Dense Line for slider_23: 6057155206630324340
+      Dense Line for slider_24: 142013737014378929
+      Dense Line for slider_25: -4165981640650310598
+      Dense Line for slider_26: -8047013200351730450
+      Dense Line for slider_27: -3097045962233606269
+      Dense Line for slider_28: 207021200346827080
+      Dense Line for slider_29: -869421948748332071
+      Dense Line for slider_3: 6665511182638808185
+      Dense Line for slider_30: 1686937569818165263
+      Dense Line for slider_31: -6843974000329209339
+      Dense Line for slider_32: 3289050084230814872
+      Dense Line for slider_33: -5247336519276180330
+      Dense Line for slider_34: -5164801065013258807
+      Dense Line for slider_35: -8673363277208239955
+      Dense Line for slider_36: 9011011239700841343
+      Dense Line for slider_37: 2481191307318066800
+      Dense Line for slider_38: 8493064200108398297
+      Dense Line for slider_39: 8352754275757247513
+      Dense Line for slider_4: 2074834707466247088
+      Dense Line for slider_40: 4112276315207040429
+      Dense Line for slider_41: -7613375960294344693
+      Dense Line for slider_42: 5476402379051042993
+      Dense Line for slider_43: 6342412458379929401
+      Dense Line for slider_44: 781400286237646906
+      Dense Line for slider_45: 7663632769177201867
+      Dense Line for slider_46: 4951535374802549531
+      Dense Line for slider_47: 4367337891815778678
+      Dense Line for slider_48: -3466334031967633127
+      Dense Line for slider_49: 1775790855311497631
+      Dense Line for slider_5: -2468038503933315072
+      Dense Line for slider_50: 6684665482482276489
+      Dense Line for slider_51: 8390080783533203174
+      Dense Line for slider_52: -1681072849011590052
+      Dense Line for slider_53: 2571805857824899697
+      Dense Line for slider_54: -6372214277211809495
+      Dense Line for slider_55: 1043912891530097596
+      Dense Line for slider_56: 1037880003843758757
+      Dense Line for slider_57: -8385248284495163224
+      Dense Line for slider_58: -7078749757515094935
+      Dense Line for slider_59: 7192139438960396023
+      Dense Line for slider_6: 5584384290940975753
+      Dense Line for slider_60: 2771232242060909322
+      Dense Line for slider_61: -4142029805129638030
+      Dense Line for slider_62: -6296167083533545549
+      Dense Line for slider_63: 3463806895865382757
+      Dense Line for slider_64: 444633495739617277
+      Dense Line for slider_65: 5821299353160165998
+      Dense Line for slider_66: -4593786673975740295
+      Dense Line for slider_67: -7243887130618883025
+      Dense Line for slider_68: 6823330597676228964
+      Dense Line for slider_69: -5141968235733400392
+      Dense Line for slider_7: 4754305462270650597
+      Dense Line for slider_70: -2412140484507804277
+      Dense Line for slider_71: 7653064883997871098
+      Dense Line for slider_72: 3659413801535144866
+      Dense Line for slider_73: 3151264930762747238
+      Dense Line for slider_74: 8021456735424973358
+      Dense Line for slider_75: -5180665312162957491
+      Dense Line for slider_76: -2586778500392996602
+      Dense Line for slider_77: 1525212000958067699
+      Dense Line for slider_78: -8257043359674413777
+      Dense Line for slider_79: 3566486926211654801
+      Dense Line for slider_8: 321609974642461250
+      Dense Line for slider_80: -6206972820662805779
+      Dense Line for slider_81: 6518159495743667457
+      Dense Line for slider_82: -1556585292959922855
+      Dense Line for slider_83: -3260358446474045165
+      Dense Line for slider_84: -4135023983530294295
+      Dense Line for slider_85: 4568577198696758898
+      Dense Line for slider_86: -4545475701070681547
+      Dense Line for slider_87: -3417009257912109097
+      Dense Line for slider_88: 1190698234504581936
+      Dense Line for slider_89: 6602006009792655293
+      Dense Line for slider_9: 5751177352024591271
+      Dense Line for slider_90: 5563077433103025893
+      Dense Line for slider_91: 8192827932094622733
+      Dense Line for slider_92: -4262156055614334933
+      Dense Line for slider_93: -6602167012206021017
+      Dense Line for slider_94: -4057891370143293769
+      Dense Line for slider_95: -3174890887637930433
+      Dense Line for slider_96: 4126175303722865964
+      Dense Line for slider_97: -9070001544843364494
+      Dense Line for slider_98: 5540190989103640210
+      Dense Line for slider_99: -6639031701835124023
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using TMPro;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
@@ -33,6 +34,7 @@ public class MainMenuUI : MonoBehaviour
 
 
     [SerializeField] private GameObject confirmExitPanel;
+    [SerializeField] private GameObject errorPanel;
 
     private void Awake()
     {
@@ -61,12 +63,12 @@ public class MainMenuUI : MonoBehaviour
                 UpdateInputError(playerNameInputComp, nameErrorTxtComp);
                 return;
             }
-            createRoomPanel.SetActive(true);
+            PanelAnimator.Show(createRoomPanel);
         });
 
         createRoomPanelCancelBtn.onClick.AddListener(() =>
         {
-            createRoomPanel.SetActive(false);
+            PanelAnimator.Hide(createRoomPanel);
         });
         
         joinRoomBtn.onClick.AddListener(() =>
@@ -76,11 +78,11 @@ public class MainMenuUI : MonoBehaviour
                 UpdateInputError(playerNameInputComp, nameErrorTxtComp);
                 return;
             }
-            joinRoomPanel.SetActive(true);
+            PanelAnimator.Show(joinRoomPanel);
         });
 
         joinRoomPanelCancelBtn.onClick.AddListener(() => {
-            joinRoomPanel.SetActive(false);
+            PanelAnimator.Hide(joinRoomPanel);
         });
 
         quickMatch.onClick.AddListener(() =>
@@ -91,7 +93,8 @@ public class MainMenuUI : MonoBehaviour
                 return;
             }
             string name = playerNameInputComp.text.Trim();
-            LobbyManager.Instance.QuickJoinLobby(name);
+            BoostrapManager.Instance.ShowLoading();
+            _ = QuickJoinLobbyFlow();
         });
 
         settingsBtn.onClick.AddListener(() =>
@@ -127,7 +130,7 @@ public class MainMenuUI : MonoBehaviour
 
         exitBtn.onClick.AddListener(() =>
         {
-            confirmExitPanel.SetActive(true);
+            PanelAnimator.Show(confirmExitPanel);
         });
     }
 
@@ -218,5 +221,22 @@ public class MainMenuUI : MonoBehaviour
     {
         nameErrorTxtComp.gameObject.SetActive(false);
         roomCodeErrorTxtComp.gameObject.SetActive(false);
+    }
+
+    private async Task QuickJoinLobbyFlow()
+    {
+        bool isJoined = await LobbyManager.Instance.QuickJoinLobby(name);
+
+        if (!isJoined)
+        {
+            BoostrapManager.Instance.HideLoading();
+            PanelAnimator.Show(errorPanel);
+            Invoke("HideErrorPanel", 3f);
+        }
+    }
+
+    private void HideErrorPanel()
+    {
+        PanelAnimator.Hide(errorPanel);
     }
 }

@@ -18,7 +18,7 @@ public class BoostrapManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         settingsPanel.SetActive(false);
-        loadingScreenManager.Hide();
+        loadingScreenManager.gameObject.SetActive(false);
     }
 
     public void ShowSettings() => PanelAnimator.Show(settingsPanel);

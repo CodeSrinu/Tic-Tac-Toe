@@ -1,8 +1,12 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class LoadingScreenManager : MonoBehaviour
 {
     public static LoadingScreenManager Instance { get; private set; }
+
+    public GameObject leftPage;
+    public GameObject rightPage;
 
     private void Awake()
     {
@@ -24,6 +28,10 @@ public class LoadingScreenManager : MonoBehaviour
 
     public void Hide()
     {
-        gameObject.SetActive(false);
+        gameObject.transform.GetComponent<CanvasGroup>().DOFade(0, 0.4f).OnComplete(() =>
+        {
+            gameObject.SetActive(false);
+        });
     }
+
 }

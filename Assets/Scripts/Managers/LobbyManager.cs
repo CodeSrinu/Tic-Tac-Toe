@@ -187,7 +187,7 @@ public class LobbyManager : MonoBehaviour
         }
     }
 
-    public async void QuickJoinLobby(string clientName)
+    public async Task<bool> QuickJoinLobby(string clientName)
     {
         try
         {
@@ -215,11 +215,13 @@ public class LobbyManager : MonoBehaviour
             NetworkManager.Singleton.StartClient();
             StartPollingLobbyData();
             onLobbyJoined?.Invoke();
+            return true;
         }
         catch (LobbyServiceException e)
         {
             onLobbyFailed?.Invoke();
             Debug.Log(e);
+            return false;
         }
     }
     

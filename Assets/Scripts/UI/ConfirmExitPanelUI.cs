@@ -33,7 +33,7 @@ public class ConfirmExitPanelUI : MonoBehaviour
 
         noBtn.onClick.AddListener(() =>
         {
-            gameObject.SetActive(false);
+            PanelAnimator.Hide(gameObject);
         });
     }
 }
