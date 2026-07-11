@@ -2116,6 +2116,7 @@ GameObject:
   - component: {fileID: 1513402950}
   - component: {fileID: 1513402952}
   - component: {fileID: 1513402951}
+  - component: {fileID: 1513402953}
   m_Layer: 5
   m_Name: Settings Panel
   m_TagString: Untagged
@@ -2142,10 +2143,10 @@ RectTransform:
   - {fileID: 115847350}
   m_Father: {fileID: 1996036314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 121.07907}
-  m_SizeDelta: {x: -100, y: -938.826}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 936, y: 1050}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1513402951
 MonoBehaviour:
@@ -2176,6 +2177,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513402949}
   m_CullTransparentMesh: 1
+--- !u!225 &1513402953
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513402949}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1625695314
 GameObject:
   m_ObjectHideFlags: 0
