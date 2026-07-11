@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: cee9cdcfc8b9fff49b128bb309372f11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2419429706594403426
+    second: Room Avatar 2_0
+  - first:
+      213: 3577670084464684300
+    second: Room Avatar 2_1
+  - first:
+      213: 6265248943031895995
+    second: Room Avatar 2_2
+  - first:
+      213: 2380931755896402928
+    second: Room Avatar 2_3
+  - first:
+      213: -4716380238793083213
+    second: Room Avatar 2_4
+  - first:
+      213: -4977698006681344718
+    second: Room Avatar 2_5
+  - first:
+      213: -166266355960073708
+    second: Room Avatar 2_6
+  - first:
+      213: -2749807885758541607
+    second: Room Avatar 2_7
+  - first:
+      213: -2966654969236771743
+    second: Room Avatar 2_8
+  - first:
+      213: 1133261345523873709
+    second: Room Avatar 2_9
+  - first:
+      213: 193432509786784951
+    second: Room Avatar 2_10
+  - first:
+      213: 8434948352426951966
+    second: Room Avatar 2_11
+  - first:
+      213: 8411842091257412954
+    second: Room Avatar 2_12
+  - first:
+      213: -2130330384688087033
+    second: Room Avatar 2_13
+  - first:
+      213: -1189782880669109789
+    second: Room Avatar 2_14
+  - first:
+      213: -6091980675936900531
+    second: Room Avatar 2_15
+  - first:
+      213: 2215414458362185078
+    second: Room Avatar 2_16
+  - first:
+      213: 2885860936377806117
+    second: Room Avatar 2_17
+  - first:
+      213: -4636001503731279475
+    second: Room Avatar 2_18
+  - first:
+      213: 1987231346812001682
+    second: Room Avatar 2_19
+  - first:
+      213: -8938655190939017632
+    second: Room Avatar 2_20
+  - first:
+      213: -3558360783499859471
+    second: Room Avatar 2_21
+  - first:
+      213: -6424184394843603439
+    second: Room Avatar 2_22
+  - first:
+      213: -1542297082553215565
+    second: Room Avatar 2_23
+  - first:
+      213: 4944414526065048333
+    second: Room Avatar 2_24
+  - first:
+      213: 8372681368135167315
+    second: Room Avatar 2_25
+  - first:
+      213: -7609142090123686044
+    second: Room Avatar 2_26
+  - first:
+      213: -217349045717877015
+    second: Room Avatar 2_27
+  - first:
+      213: 3552750531692063327
+    second: Room Avatar 2_28
+  - first:
+      213: -5830836006938692898
+    second: Room Avatar 2_29
+  - first:
+      213: 5467846699685166363
+    second: Room Avatar 2_30
+  - first:
+      213: 4363467313393943950
+    second: Room Avatar 2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Room Avatar 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264469cdf7a839120800000000000000
+      internalID: 2419429706594403426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 103
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d2f0c8cff66a130800000000000000
+      internalID: 3577670084464684300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7cece08b2a2f650800000000000000
+      internalID: 6265248943031895995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 303
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f6a831d4ca0120800000000000000
+      internalID: 2380931755896402928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 183
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6f019492d0c8eb0800000000000000
+      internalID: -4716380238793083213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235a690390aabeab0800000000000000
+      internalID: -4977698006681344718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 280
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412b6e251ad41bdf0800000000000000
+      internalID: -166266355960073708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 183
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d05bc80c48b6d9d0800000000000000
+      internalID: -2749807885758541607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 278
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cae73060354d6d0800000000000000
+      internalID: -2966654969236771743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 264
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7b1a180372abf00800000000000000
+      internalID: 1133261345523873709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 104
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b48ad1c7d53fa200800000000000000
+      internalID: 193432509786784951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 276
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15cc2516d4fe0570800000000000000
+      internalID: 8434948352426951966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 263
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5db31c60dddcb470800000000000000
+      internalID: 8411842091257412954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 183
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70002765dcb8f62e0800000000000000
+      internalID: -2130330384688087033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_14
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 183
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e170e516ca0d7fe0800000000000000
+      internalID: -1189782880669109789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_15
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aac381adfe47ba0800000000000000
+      internalID: -6091980675936900531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 279
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67541fc46bbbebe10800000000000000
+      internalID: 2215414458362185078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 263
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52da9ff4b33ac0820800000000000000
+      internalID: 2885860936377806117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_18
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d899be7e13d99afb0800000000000000
+      internalID: -4636001503731279475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_19
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 103
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d10419160149b10800000000000000
+      internalID: 1987231346812001682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_20
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ed06e767483f380800000000000000
+      internalID: -8938655190939017632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_21
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 273
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f96fcc68b92e9ec0800000000000000
+      internalID: -3558360783499859471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_22
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 23
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e3db56456b8d6a0800000000000000
+      internalID: -6424184394843603439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_23
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 183
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b55b4099f8a89ae0800000000000000
+      internalID: -1542297082553215565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 271
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b736890d61e9440800000000000000
+      internalID: 4944414526065048333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_25
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d6a3d085db13470800000000000000
+      internalID: 8372681368135167315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 263
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f44b08595e66690800000000000000
+      internalID: -7609142090123686044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_27
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 264
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee37b9c132dbfcf0800000000000000
+      internalID: -217349045717877015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_28
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 127
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ae51909c7ed4130800000000000000
+      internalID: 3552750531692063327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_29
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 182
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2bcd67b85b41fa0800000000000000
+      internalID: -5830836006938692898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_30
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 199
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db60d7a91b1eb40800000000000000
+      internalID: 5467846699685166363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room Avatar 2_31
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 183
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85cfd327662e8c30800000000000000
+      internalID: 4363467313393943950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Room Avatar 2_0: 2419429706594403426
+      Room Avatar 2_1: 3577670084464684300
+      Room Avatar 2_10: 193432509786784951
+      Room Avatar 2_11: 8434948352426951966
+      Room Avatar 2_12: 8411842091257412954
+      Room Avatar 2_13: -2130330384688087033
+      Room Avatar 2_14: -1189782880669109789
+      Room Avatar 2_15: -6091980675936900531
+      Room Avatar 2_16: 2215414458362185078
+      Room Avatar 2_17: 2885860936377806117
+      Room Avatar 2_18: -4636001503731279475
+      Room Avatar 2_19: 1987231346812001682
+      Room Avatar 2_2: 6265248943031895995
+      Room Avatar 2_20: -8938655190939017632
+      Room Avatar 2_21: -3558360783499859471
+      Room Avatar 2_22: -6424184394843603439
+      Room Avatar 2_23: -1542297082553215565
+      Room Avatar 2_24: 4944414526065048333
+      Room Avatar 2_25: 8372681368135167315
+      Room Avatar 2_26: -7609142090123686044
+      Room Avatar 2_27: -217349045717877015
+      Room Avatar 2_28: 3552750531692063327
+      Room Avatar 2_29: -5830836006938692898
+      Room Avatar 2_3: 2380931755896402928
+      Room Avatar 2_30: 5467846699685166363
+      Room Avatar 2_31: 4363467313393943950
+      Room Avatar 2_4: -4716380238793083213
+      Room Avatar 2_5: -4977698006681344718
+      Room Avatar 2_6: -166266355960073708
+      Room Avatar 2_7: -2749807885758541607
+      Room Avatar 2_8: -2966654969236771743
+      Room Avatar 2_9: 1133261345523873709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
