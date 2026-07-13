@@ -1,3 +1,5 @@
+using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,8 +8,9 @@ public class PlayerUI : MonoBehaviour
 {
     [SerializeField] private GameObject crossArrowImg;
     [SerializeField] private GameObject circleArrowImg;
-    [SerializeField] private GameObject crossYouText;
-    [SerializeField] private GameObject circleYouText;
+    [SerializeField] private GameObject penIcon;
+    [SerializeField] private TextMeshProUGUI playerNameTxtComp;
+    [SerializeField] private TextMeshProUGUI opponentNameTxtComp;
     [SerializeField] private GameObject confirmExitPanel;
     [SerializeField] private Button backBtn;
     [SerializeField] private Button settingsBtn;
@@ -19,8 +22,6 @@ public class PlayerUI : MonoBehaviour
     {
         crossArrowImg.SetActive(false);
         circleArrowImg.SetActive(false);
-        crossYouText.SetActive(false);
-        circleYouText.SetActive(false);
     }
 
     private void Start()
@@ -41,44 +42,42 @@ public class PlayerUI : MonoBehaviour
 
     private void GameManager_OnCurrentPlayerTypeChange(object sender, GameManager.PlayerType playerType)
     {
-        UpdateArrowImage(playerType);
+        UpdatePenAnimation(playerType);
     }
 
     private void GameManager_OnGameStarted(object sender, System.EventArgs e)
     {
-        if (GameManager.Instance.GetLocalPlayerType == GameManager.PlayerType.Cross)
-        {
-            crossYouText?.SetActive(true);
-            circleYouText?.SetActive(false);
-        }
-        else
-        {
-            circleYouText?.SetActive(true);
-            crossYouText?.SetActive(false);
-        }
+        playerNameTxtComp.text = LobbyManager.Instance.CurrentLobby.Players[0].Data["PlayerName"].Value;
+        opponentNameTxtComp.text = LobbyManager.Instance.CurrentLobby.Players[1].Data["PlayerName"].Value;
 
-        UpdateArrowImage(GameManager.Instance.GetCurrentCurrentPlayerType);
+        penIcon.transform.position = new Vector3(playerNameTxtComp.transform.position.x, penIcon.transform.position.y);
+
+        UpdatePenAnimation(GameManager.Instance.GetCurrentCurrentPlayerType);
     }
 
-    private void UpdateArrowImage(GameManager.PlayerType playerType)
+    private void UpdatePenAnimation(GameManager.PlayerType playerType)
     {
+        float x = 0f;
         switch (playerType)
         {
             default:
             case GameManager.PlayerType.Cross:
-                crossArrowImg.SetActive(true);
-                circleArrowImg.SetActive(false);
+                x = playerNameTxtComp.transform.position.x;
                 break;
             case GameManager.PlayerType.Circle:
-                circleArrowImg.SetActive(true);
-                crossArrowImg.SetActive(false);
+                x = opponentNameTxtComp.transform.position.x;
                 break;
-
         }
+        PlayPenAnimation(x);
+    }
+
+    private void PlayPenAnimation(float x)
+    {
+        penIcon.transform.DOMoveX(x, 0.5f).SetEase(Ease.InOutQuint);
     }
 
     private void ShowConfirmToExit()
     {
-        confirmExitPanel.SetActive(true);
+        PanelAnimator.Show(confirmExitPanel);
     }
 }

@@ -1,13 +1,20 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 
 public static class PanelAnimator
 {
     public static float moveYDuration = 0.4f;
     public static float rotateBackYDuration = 0.2f;
-    public static void Show(GameObject go)
+    public static void Show(GameObject go, string error = "")
     {
         if (go.activeSelf) return;
+
+        if(error != "")
+        {
+            TextMeshProUGUI txtComp = go.GetComponentInChildren<TextMeshProUGUI>();
+            txtComp.text = error;
+        }
 
         go.SetActive(true);
         go.transform.DOKill();

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Threading.Tasks;
 using TMPro;
 using Unity.Services.Lobbies.Models;
@@ -132,6 +133,9 @@ public class MainMenuUI : MonoBehaviour
         {
             PanelAnimator.Show(confirmExitPanel);
         });
+
+        nameErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
+        roomCodeErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
     }
 
     private void Start()
@@ -147,18 +151,16 @@ public class MainMenuUI : MonoBehaviour
         LobbyManager.Instance.onLobbyCreated -= LobbyManager_onLobbyCreated;
         LobbyManager.Instance.onLobbyFailed -= LobbyManager_onLobbyFailed;
         LobbyManager.Instance.onLobbyJoined -= LobbyManager_onLobbyJoined;
-
     }
     private void LobbyManager_onLobbyJoined()
     {
-        
         SceneManager.LoadScene("Lobby");
         BoostrapManager.Instance.HideLoading();
     }
 
     private void LobbyManager_onLobbyFailed()
     {
-        Debug.Log("Lobby creation is failed");
+        PanelAnimator.Show(errorPanel,"Lobby creation is failed");
     }
 
     private void LobbyManager_onLobbyCreated()
@@ -194,10 +196,11 @@ public class MainMenuUI : MonoBehaviour
 
     private void UpdateInputError(TMP_InputField txtComp, TextMeshProUGUI errorTxtComp)
     {
+        errorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
 
-        if(errorTxtComp == roomCodeErrorTxtComp)
+        if (errorTxtComp == roomCodeErrorTxtComp)
         {
-            errorTxtComp.gameObject.SetActive(true);
+            FadeText(errorTxtComp, 1);
             Invoke("HideAllInputErrors", 10f);
             return;
         }
@@ -209,19 +212,28 @@ public class MainMenuUI : MonoBehaviour
         }
         else if (txtComp.text.Length <= 2)
         {
-            error = "name should be more than two characters";
+            error = "name should be more \nthan two characters";
         }
 
         errorTxtComp.text = error;
-        errorTxtComp.gameObject.SetActive(true);
+        FadeText(errorTxtComp, 1);
 
         Invoke("HideAllInputErrors", 10f);
     }
 
     private void HideAllInputErrors()
     {
-        nameErrorTxtComp.gameObject.SetActive(false);
-        roomCodeErrorTxtComp.gameObject.SetActive(false);
+        if(nameErrorTxtComp.GetComponent<CanvasGroup>().alpha == 1)
+            FadeText(nameErrorTxtComp, 0);
+
+        if (roomCodeErrorTxtComp.GetComponent<CanvasGroup>().alpha == 1)
+            FadeText(roomCodeErrorTxtComp, 0);
+
+    }
+
+    private void FadeText(TextMeshProUGUI txt, float targetAlpha, float duration = 0.2f)
+    {
+        txt.GetComponent<CanvasGroup>().DOFade(targetAlpha, duration);
     }
 
     private async Task QuickJoinLobbyFlow()
@@ -231,8 +243,9 @@ public class MainMenuUI : MonoBehaviour
         if (!isJoined)
         {
             BoostrapManager.Instance.HideLoading();
-            PanelAnimator.Show(errorPanel);
-            Invoke("HideErrorPanel", 3f);
+            string error = "No players are playing right now, create room and play with your friends";
+            PanelAnimator.Show(errorPanel, error);
+            Invoke("HideErrorPanel", 5f);
         }
     }
 

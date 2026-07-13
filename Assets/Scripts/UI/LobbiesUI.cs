@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -81,6 +82,7 @@ public class LobbiesUI : MonoBehaviour
         foreach(Lobby lobby in listedLobbies)
         {
             GameObject lobbyItem = Instantiate(lobbyItemPrefab, lobbiesContainer);
+            lobbyItem.GetComponent<CanvasGroup>().alpha = 0;
 
             lobbyItem.transform.Find("Name").GetComponent<TextMeshProUGUI>().text = lobby.Name;
             lobbyItem.transform.Find("Players").GetComponent<TextMeshProUGUI>().text = $"{lobby.Players.Count}/{lobby.MaxPlayers}";
@@ -93,8 +95,10 @@ public class LobbiesUI : MonoBehaviour
             lobbyItem.GetComponentInChildren<Button>().onClick.AddListener(() =>
             {
                 BoostrapManager.Instance.ShowLoading();
-                LobbyManager.Instance.QuickJoinLobby(playerName);
+                LobbyManager.Instance.JoinLobyById(lobby.Id, playerName);
             });
+
+            lobbyItem.GetComponent<CanvasGroup>().DOFade(1, 0.2f);
         }
     }
 

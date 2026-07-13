@@ -6,10 +6,20 @@ using UnityEngine.UI;
 public class GameOverUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI resultTextComp;
-    [SerializeField] private Color winColor;
-    [SerializeField] private Color loseColor;
-    [SerializeField] private Color tieColor;
+    [SerializeField] private Image resultIconComp;
+    [SerializeField] private Sprite winIcon;
+    [SerializeField] private Sprite loseIcon;
+    [SerializeField] private Sprite tieIcon;
     [SerializeField] private Button rematchBtn;
+    [SerializeField] private Button backToLobby;
+
+
+    private void Awake()
+    {
+        GameManager.Instance.OnGameWin += GameManager_OnGameWin;
+        GameManager.Instance.OnGameTied += GameManager_OnGameTied;
+        GameManager.Instance.OnRematch += GameManager_OnRematch;
+    }
 
     private void Start()
     {
@@ -19,47 +29,50 @@ public class GameOverUI : MonoBehaviour
             GameManager.Instance.RequestRematchServerRpc();
         });
 
-        Hide();
+        backToLobby.onClick.AddListener(() =>
+        {
+            PanelAnimator.Hide(gameObject);
+            GameManager.Instance.DeclineRematchServerRpc();
+        });
 
-        GameManager.Instance.OnGameWin += GameManager_OnGameWin;
-        GameManager.Instance.OnGameTied += GameManager_OnGameTied;
-        GameManager.Instance.OnRematch += GameManager_OnRematch;
+        PanelAnimator.Hide(gameObject);
+
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.Instance.OnGameWin -= GameManager_OnGameWin;
+        GameManager.Instance.OnGameTied -= GameManager_OnGameTied;
+        GameManager.Instance.OnRematch -= GameManager_OnRematch;
     }
 
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
-        Hide();
+        PanelAnimator.Hide(gameObject);
     }
 
     private void GameManager_OnGameTied(object sender, System.EventArgs e)
     {
-        resultTextComp.text = "Tie";
-        resultTextComp.color = tieColor;
-        Show();
+        resultTextComp.text = "It's a Tie";
+        resultIconComp.sprite = tieIcon;
+        PanelAnimator.Show(gameObject);
     }
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
     {
-        if(GameManager.Instance.GetLocalPlayerType == e.winPlayerType)
+        Debug.Log("OnGameWin triggered inside gameOver UI");
+
+        if (GameManager.Instance.GetLocalPlayerType == e.winPlayerType)
         {
-            resultTextComp.text = "You Win!";
-            resultTextComp.color = winColor;
+            resultTextComp.text = "Victory is yours!";
+            resultIconComp.sprite = winIcon;
         }
         else
         {
-            resultTextComp.text = "You Lose!";
-            resultTextComp.color = loseColor;
+            resultTextComp.text = "Your strategy has failed!";
+            resultIconComp.sprite = loseIcon;
         }
-        Show();
+        PanelAnimator.Show(gameObject);
     }
 
-    private void Hide()
-    {
-        gameObject.SetActive(false);
-    }
-
-    private void Show()
-    {
-        gameObject.SetActive(true);
-    }
 }

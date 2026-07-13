@@ -71,7 +71,7 @@ public class LobbyUI : MonoBehaviour
         LobbyManager.Instance.onLobbyUpdated += LobbyManager_onLobbyUpdated;
         backBtn.onClick.AddListener(() =>
         {
-            ShowConfirmExitPanel();
+            PanelAnimator.Show(confirmExitPanel);
         });
 
         settingsBtn.onClick.AddListener(() =>
@@ -135,10 +135,6 @@ public class LobbyUI : MonoBehaviour
         }
     }
 
-    private void ShowConfirmExitPanel()
-    {
-        confirmExitPanel.SetActive(true);
-    }
 
     private void UpdateReadyStatusUI()
     {

@@ -1718,7 +1718,7 @@ GameObject:
   - component: {fileID: 1137640938}
   - component: {fileID: 1137640937}
   m_Layer: 5
-  m_Name: Game name
+  m_Name: LobbyName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   playerOneName: {fileID: 1854741247}
   playerTwoName: {fileID: 1250766550}
   roomCode: {fileID: 1324828366}
-  lobbyTittle: {fileID: 564779220}
+  lobbyTittle: {fileID: 1137640937}
   hostReadyTxtComp: {fileID: 2047022934}
   clientReadyTxtComp: {fileID: 78369967}
   playerTwoAvatarComponent: {fileID: 551104041}

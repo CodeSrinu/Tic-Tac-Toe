@@ -12,6 +12,7 @@ public class GameVisualManager : NetworkBehaviour
     [SerializeField] private Transform confirmRematchPanel;
     [SerializeField] private Button rematchConfirmBtn;
     [SerializeField] private Button rematchRejectBtn;
+    [SerializeField] private Transform[] gridCells;
     private List<GameObject> allSpawnedObjs = new List<GameObject>();
 
     const float GRID_SIZE = 3.1f;
@@ -56,6 +57,8 @@ public class GameVisualManager : NetworkBehaviour
     {
         if (!NetworkManager.Singleton.IsHost) return;
 
+        Debug.Log("OnGameWin triggered inside game visual manager");
+
         Vector3 center = GetGridWorldPos(e.centerGridPos.x, e.centerGridPos.y);
         float rotatoinZ;
         switch (e.oreintation)
@@ -86,10 +89,9 @@ public class GameVisualManager : NetworkBehaviour
         SpawnPrefabRpc(args.x, args.y, args.playerType);
     }
 
-    [Rpc(SendTo.Server)]
+    [Rpc(SendTo.ClientsAndHost)]
     public void SpawnPrefabRpc(int x, int y, GameManager.PlayerType playerType)
     {
-        Debug.Log("SpawnPrefabRpc");
 
         Transform prefab;
 
@@ -104,10 +106,11 @@ public class GameVisualManager : NetworkBehaviour
                 break;
         }
 
+        int cellIndex = x * 3 + y;
+        Transform cell = gridCells[cellIndex];
 
-        Transform crossPrefabTransform = Instantiate(prefab, GetGridWorldPos(x, y), Quaternion.identity);
-        crossPrefabTransform.GetComponent<NetworkObject>().Spawn(true);
-        allSpawnedObjs.Add(crossPrefabTransform.gameObject);
+        Transform prefabTransform = Instantiate(prefab, cell.position, Quaternion.identity);
+        allSpawnedObjs.Add(prefabTransform.gameObject);
     }
 
     private Vector2 GetGridWorldPos(int x, int y)

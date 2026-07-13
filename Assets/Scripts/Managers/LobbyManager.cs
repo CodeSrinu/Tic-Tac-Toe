@@ -224,6 +224,41 @@ public class LobbyManager : MonoBehaviour
             return false;
         }
     }
+    public async void JoinLobyById(string lobbyId, string clientName)
+    {
+        try
+        {
+            JoinLobbyByIdOptions joinLobbyByIdOptions = new JoinLobbyByIdOptions
+            {
+                Player = new Player
+                {
+                    Data = new Dictionary<string, PlayerDataObject>
+                    {
+                        {"PlayerName", new PlayerDataObject(PlayerDataObject.VisibilityOptions.Member, clientName) },
+                    },
+                },
+            };
+
+            Lobby lobby = await LobbyService.Instance.JoinLobbyByIdAsync(lobbyId, joinLobbyByIdOptions);
+            currentLobby = lobby;
+            string relayJoinCode = currentLobby.Data["RelayJoinCode"].Value;
+
+            JoinAllocation joinAllocation = await RelayService.Instance.JoinAllocationAsync(relayJoinCode);
+
+            UnityTransport transport = NetworkManager.Singleton.gameObject.GetComponent<UnityTransport>();
+            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "dtls");
+            transport.SetRelayServerData(relayServerData);
+
+            NetworkManager.Singleton.StartClient();
+            StartPollingLobbyData();
+            onLobbyJoined?.Invoke();
+        }
+        catch (LobbyServiceException e)
+        {
+            onLobbyFailed?.Invoke();
+            Debug.Log(e);
+        }
+    }
     
     public async void LeaveLobby()
     {

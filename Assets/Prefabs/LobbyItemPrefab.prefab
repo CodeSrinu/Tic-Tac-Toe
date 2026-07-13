@@ -147,6 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4973721803400513545}
   - component: {fileID: 997225380454294166}
+  - component: {fileID: 851816924505627811}
   m_Layer: 5
   m_Name: LobbyItemPrefab
   m_TagString: Untagged
@@ -198,6 +199,18 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!225 &851816924505627811
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2330769072023470387}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2853402141567689874
 GameObject:
   m_ObjectHideFlags: 0
