@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: fb0a5c79223285a4c88bc7be527f006b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6114722783091526738
+    second: Win Icon_0
+  - first:
+      213: 4301417049892617296
+    second: Win Icon_1
+  - first:
+      213: -9081261722875556527
+    second: Win Icon_2
+  - first:
+      213: 7719490777861311716
+    second: Win Icon_3
+  - first:
+      213: 5345714000384862271
+    second: Win Icon_4
+  - first:
+      213: -3481126216360221553
+    second: Win Icon_5
+  - first:
+      213: 3007893528565196165
+    second: Win Icon_6
+  - first:
+      213: 7016795872759882106
+    second: Win Icon_7
+  - first:
+      213: -6796063449093953032
+    second: Win Icon_8
+  - first:
+      213: -1042327245739633923
+    second: Win Icon_9
+  - first:
+      213: -439213868985730559
+    second: Win Icon_10
+  - first:
+      213: -7939922503823328404
+    second: Win Icon_11
+  - first:
+      213: 4048702917230593549
+    second: Win Icon_12
+  - first:
+      213: -7237570794047179590
+    second: Win Icon_13
+  - first:
+      213: 422882272551280675
+    second: Win Icon_14
+  - first:
+      213: -8952632530727862395
+    second: Win Icon_15
+  - first:
+      213: -2620577607257618472
+    second: Win Icon_16
+  - first:
+      213: 5891640097410453992
+    second: Win Icon_17
+  - first:
+      213: -6999954096070506289
+    second: Win Icon_18
+  - first:
+      213: -6760834666098606996
+    second: Win Icon_19
+  - first:
+      213: 7673029297392077272
+    second: Win Icon_20
+  - first:
+      213: -3966138963749294349
+    second: Win Icon_21
+  - first:
+      213: -7358747226033064776
+    second: Win Icon_22
+  - first:
+      213: 9015380821343112598
+    second: Win Icon_23
+  - first:
+      213: 212027304066537381
+    second: Win Icon_24
+  - first:
+      213: -3107658178398579896
+    second: Win Icon_25
+  - first:
+      213: 8759368893260090777
+    second: Win Icon_26
+  - first:
+      213: -8273855065958677650
+    second: Win Icon_27
+  - first:
+      213: 346690702550773695
+    second: Win Icon_28
+  - first:
+      213: -7093154859485569983
+    second: Win Icon_29
+  - first:
+      213: -5524652428536288354
+    second: Win Icon_30
+  - first:
+      213: -7838539792190955464
+    second: Win Icon_31
+  - first:
+      213: 1058493119783733914
+    second: Win Icon_32
+  - first:
+      213: 148299410204117480
+    second: Win Icon_33
+  - first:
+      213: -4779003907023854105
+    second: Win Icon_34
+  - first:
+      213: -1617521811465108398
+    second: Win Icon_35
+  - first:
+      213: 3503252093396225388
+    second: Win Icon_36
+  - first:
+      213: 1843161237517297840
+    second: Win Icon_37
+  - first:
+      213: -4465115602710741748
+    second: Win Icon_38
+  - first:
+      213: -2883219564745429253
+    second: Win Icon_39
+  - first:
+      213: -1223990577485017668
+    second: Win Icon_40
+  - first:
+      213: 8445399598961078696
+    second: Win Icon_41
+  - first:
+      213: -4648074449360097588
+    second: Win Icon_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Win Icon_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 572
+        width: 782
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea377d5a604242ba0800000000000000
+      internalID: -6114722783091526738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 166
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c78a95404b1bb30800000000000000
+      internalID: 4301417049892617296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1144
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d86afd390e8f180800000000000000
+      internalID: -9081261722875556527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1143
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecc35d76f3212b60800000000000000
+      internalID: 7719490777861311716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1143
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38a5cf7f8acf2a40800000000000000
+      internalID: 5345714000384862271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1143
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ac87662e80bfc0800000000000000
+      internalID: -3481126216360221553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_6
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1142
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585235c4a3f2eb920800000000000000
+      internalID: 3007893528565196165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1143
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a7417baaa06160800000000000000
+      internalID: 7016795872759882106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_8
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1143
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f92db5dc488fa1a0800000000000000
+      internalID: -6796063449093953032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1062
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df25af974e8e881f0800000000000000
+      internalID: -1042327245739633923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1063
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a3eae205997e9f0800000000000000
+      internalID: -439213868985730559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1029
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bfa7fdc8abfc190800000000000000
+      internalID: -7939922503823328404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_12
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1037
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d060e9e2ad1ef2830800000000000000
+      internalID: 4048702917230593549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_13
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1023
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4731885bbfe8b90800000000000000
+      internalID: -7237570794047179590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 921
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320aa35bf216ed500800000000000000
+      internalID: 422882272551280675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 549
+        width: 784
+        height: 499
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ffb59752cd1c380800000000000000
+      internalID: -8952632530727862395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_16
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 938
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d70115fc86d1abd0800000000000000
+      internalID: -2620577607257618472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 904
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1199e047f43c150800000000000000
+      internalID: 5891640097410453992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_18
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 823
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc84da346da2bde90800000000000000
+      internalID: -6999954096070506289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 733
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cbb0e01b0bc22a0800000000000000
+      internalID: -6760834666098606996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_20
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 742
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d948361e731c7a60800000000000000
+      internalID: 7673029297392077272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_21
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 661
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe23ef30a175f8c0800000000000000
+      internalID: -3966138963749294349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_22
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 663
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b47860e26a70e990800000000000000
+      internalID: -7358747226033064776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_23
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 583
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d860b67111d1d70800000000000000
+      internalID: 9015380821343112598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_24
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 545
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7d19da5b541f200800000000000000
+      internalID: 212027304066537381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_25
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 505
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84317311a516fd4d0800000000000000
+      internalID: -3107658178398579896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_26
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 501
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dcf5b69978f8970800000000000000
+      internalID: 8759368893260090777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_27
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 503
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63877e77ac5d2d80800000000000000
+      internalID: -8273855065958677650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_28
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 506
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf287c6b51bfc400800000000000000
+      internalID: 346690702550773695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_29
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 504
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cd6878c3d009d90800000000000000
+      internalID: -7093154859485569983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_30
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 503
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b689913ed7453b0800000000000000
+      internalID: -5524652428536288354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_31
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 505
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830a1b0e699e73390800000000000000
+      internalID: -7838539792190955464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_32
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 504
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a87e162e580be00800000000000000
+      internalID: 1058493119783733914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_33
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 507
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9cd91278dde0200800000000000000
+      internalID: 148299410204117480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_34
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 506
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5a3ad44419dadb0800000000000000
+      internalID: -4779003907023854105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_35
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 503
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2540d238b786d89e0800000000000000
+      internalID: -1617521811465108398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_36
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 490
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d8689c73d0e9030800000000000000
+      internalID: 3503252093396225388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_37
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 424
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8ecf94169349910800000000000000
+      internalID: 1843161237517297840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 415
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d3f5b3409b802c0800000000000000
+      internalID: -4465115602710741748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_39
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 343
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe64e1f41fbcf7d0800000000000000
+      internalID: -2883219564745429253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_40
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 343
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd84940e03830fe0800000000000000
+      internalID: -1223990577485017668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_41
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 183
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a13d4a8036143570800000000000000
+      internalID: 8445399598961078696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win Icon_42
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 178
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce62543ae8be7fb0800000000000000
+      internalID: -4648074449360097588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7ef23e651b839064795470609e5b6161
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Win Icon: -8952632530727862395
+      Win Icon_0: -6114722783091526738
+      Win Icon_1: 4301417049892617296
+      Win Icon_10: -439213868985730559
+      Win Icon_11: -7939922503823328404
+      Win Icon_12: 4048702917230593549
+      Win Icon_13: -7237570794047179590
+      Win Icon_14: 422882272551280675
+      Win Icon_16: -2620577607257618472
+      Win Icon_17: 5891640097410453992
+      Win Icon_18: -6999954096070506289
+      Win Icon_19: -6760834666098606996
+      Win Icon_2: -9081261722875556527
+      Win Icon_20: 7673029297392077272
+      Win Icon_21: -3966138963749294349
+      Win Icon_22: -7358747226033064776
+      Win Icon_23: 9015380821343112598
+      Win Icon_24: 212027304066537381
+      Win Icon_25: -3107658178398579896
+      Win Icon_26: 8759368893260090777
+      Win Icon_27: -8273855065958677650
+      Win Icon_28: 346690702550773695
+      Win Icon_29: -7093154859485569983
+      Win Icon_3: 7719490777861311716
+      Win Icon_30: -5524652428536288354
+      Win Icon_31: -7838539792190955464
+      Win Icon_32: 1058493119783733914
+      Win Icon_33: 148299410204117480
+      Win Icon_34: -4779003907023854105
+      Win Icon_35: -1617521811465108398
+      Win Icon_36: 3503252093396225388
+      Win Icon_37: 1843161237517297840
+      Win Icon_38: -4465115602710741748
+      Win Icon_39: -2883219564745429253
+      Win Icon_4: 5345714000384862271
+      Win Icon_40: -1223990577485017668
+      Win Icon_41: 8445399598961078696
+      Win Icon_42: -4648074449360097588
+      Win Icon_5: -3481126216360221553
+      Win Icon_6: 3007893528565196165
+      Win Icon_7: 7016795872759882106
+      Win Icon_8: -6796063449093953032
+      Win Icon_9: -1042327245739633923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

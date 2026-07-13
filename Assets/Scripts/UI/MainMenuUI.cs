@@ -186,6 +186,7 @@ public class MainMenuUI : MonoBehaviour
 
         if (!isValidCode)
         {
+            BoostrapManager.Instance.HideLoading();
             UpdateInputError(roomCodeInputComp, roomCodeErrorTxtComp);
         }
     }

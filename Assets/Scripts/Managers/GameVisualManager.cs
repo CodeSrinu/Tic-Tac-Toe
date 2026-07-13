@@ -26,11 +26,12 @@ public class GameVisualManager : NetworkBehaviour
         rematchConfirmBtn.onClick.AddListener(() =>
         {
             GameManager.Instance.RematchRpc();
-            confirmRematchPanel.gameObject.SetActive(false);
+            PanelAnimator.Hide(confirmRematchPanel.gameObject);
         });
 
         rematchRejectBtn.onClick.AddListener(() =>
         {
+            PanelAnimator.Hide(confirmRematchPanel.gameObject);
             GameManager.Instance.DeclineRematchServerRpc();
         });
 
@@ -39,7 +40,7 @@ public class GameVisualManager : NetworkBehaviour
 
     private void GameManager_OnRematchRequested(object sender, System.EventArgs e)
     {
-        confirmRematchPanel.gameObject.SetActive(true);
+        PanelAnimator.Show(confirmRematchPanel.gameObject);
     }
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
