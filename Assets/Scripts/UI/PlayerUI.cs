@@ -73,7 +73,7 @@ public class PlayerUI : MonoBehaviour
 
     private void PlayPenAnimation(float x)
     {
-        penIcon.transform.DOMoveX(x, 0.5f).SetEase(Ease.InOutQuint);
+        penIcon.transform.DOMoveX(x, 1.5f).SetEase(Ease.InOutQuart);
     }
 
     private void ShowConfirmToExit()

@@ -1,9 +1,12 @@
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BoostrapManager : MonoBehaviour
 {
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private LoadingScreenManager loadingScreenManager;
+    [SerializeField] private GameObject splashScreen;
     public static BoostrapManager Instance;
 
     private void Awake()
@@ -19,11 +22,21 @@ public class BoostrapManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         settingsPanel.SetActive(false);
         loadingScreenManager.gameObject.SetActive(false);
+
     }
 
     public void ShowSettings() => PanelAnimator.Show(settingsPanel);
     public void ShowLoading() => loadingScreenManager.Show();
     public void HideLoading() => loadingScreenManager.Hide();
+
+    public void FadeSplashScreenAndLoadMainMenu() 
+    {
+        splashScreen.transform.GetComponent<CanvasGroup>().DOFade(0, 0.4f).OnComplete(()=> { 
+            splashScreen.SetActive(false);
+            SceneManager.LoadScene("MainMenu");
+        });
+    }
+
 
 
 }

@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,15 +13,9 @@ public class GameOverUI : MonoBehaviour
     [SerializeField] private Button backToLobby;
 
 
-    private void Awake()
-    {
-        GameManager.Instance.OnGameWin += GameManager_OnGameWin;
-        GameManager.Instance.OnGameTied += GameManager_OnGameTied;
-        GameManager.Instance.OnRematch += GameManager_OnRematch;
-    }
-
     private void Start()
     {
+        Debug.Log("In GameOverUI Start");
         rematchBtn.onClick.AddListener(() => 
         {
             BoostrapManager.Instance.ShowLoading();
@@ -36,6 +29,10 @@ public class GameOverUI : MonoBehaviour
         });
 
         PanelAnimator.Hide(gameObject);
+
+        GameManager.Instance.OnGameWin += GameManager_OnGameWin;
+        GameManager.Instance.OnGameTied += GameManager_OnGameTied;
+        GameManager.Instance.OnRematch += GameManager_OnRematch;
 
     }
 
@@ -55,7 +52,8 @@ public class GameOverUI : MonoBehaviour
     {
         resultTextComp.text = "It's a Tie";
         resultIconComp.sprite = tieIcon;
-        PanelAnimator.Show(gameObject);
+        //PanelAnimator.Show(gameObject);
+        gameObject.SetActive(true);
     }
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
@@ -72,7 +70,9 @@ public class GameOverUI : MonoBehaviour
             resultTextComp.text = "Your strategy has failed!";
             resultIconComp.sprite = loseIcon;
         }
-        PanelAnimator.Show(gameObject);
+        //PanelAnimator.Show(gameObject);
+        gameObject.SetActive(true);
+
     }
 
 }

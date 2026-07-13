@@ -79,7 +79,6 @@ public class GameVisualManager : NetworkBehaviour
 
         }
         Transform lineCompletePrefabTransform = Instantiate(lineCompletePrefab, center, Quaternion.Euler(0, 0, rotatoinZ));
-        lineCompletePrefabTransform.GetComponent<NetworkObject>().Spawn(true);
         allSpawnedObjs.Add(lineCompletePrefabTransform.gameObject);
     }
 

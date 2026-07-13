@@ -22,6 +22,7 @@ public class LoadingScreenManager : MonoBehaviour
 
     public void Show()
     {
+        gameObject.transform.GetComponent<CanvasGroup>().alpha = 0f;
         gameObject.SetActive(true);
         gameObject.transform.GetComponent<CanvasGroup>().DOFade(1, 0.4f);
     }

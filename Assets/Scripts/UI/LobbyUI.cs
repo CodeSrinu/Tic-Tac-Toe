@@ -35,7 +35,6 @@ public class LobbyUI : MonoBehaviour
         clientReadyTxtComp.text = "Not Ready";
 
 
-
         readyBtn.onClick.AddListener(() =>
         {
             isReady = !isReady;
@@ -49,11 +48,11 @@ public class LobbyUI : MonoBehaviour
                 clientReadyTxtComp.text = isReady ? "Ready" : "Not Ready";
             }
 
+
             if (isReady)
             {
                 ResetPlayersReadyStatus("true");
                 readyBtn.GetComponentInChildren<TextMeshProUGUI>().text = "Cancel";
-
                 SetUpLobbyPanel();
             }
             else
@@ -128,7 +127,7 @@ public class LobbyUI : MonoBehaviour
 
         UpdateReadyStatusUI();
 
-        if (isAllReady && NetworkManager.Singleton.IsHost)
+        if (isAllReady && NetworkManager.Singleton.IsHost && LobbyManager.Instance.CurrentLobby.Players.Count > 1)
         {
             BoostrapManager.Instance.ShowLoading();
             NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);

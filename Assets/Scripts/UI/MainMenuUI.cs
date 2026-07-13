@@ -36,6 +36,7 @@ public class MainMenuUI : MonoBehaviour
 
     [SerializeField] private GameObject confirmExitPanel;
     [SerializeField] private GameObject errorPanel;
+    [SerializeField] private Button errorPanelOkBtn;
 
     private void Awake()
     {
@@ -134,6 +135,11 @@ public class MainMenuUI : MonoBehaviour
             PanelAnimator.Show(confirmExitPanel);
         });
 
+        errorPanelOkBtn.onClick.AddListener(() =>
+        {
+            PanelAnimator.Hide(errorPanel);
+        });
+
         nameErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
         roomCodeErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
     }
@@ -160,6 +166,7 @@ public class MainMenuUI : MonoBehaviour
 
     private void LobbyManager_onLobbyFailed()
     {
+        BoostrapManager.Instance.HideLoading();
         PanelAnimator.Show(errorPanel,"Lobby creation is failed");
     }
 
@@ -245,12 +252,6 @@ public class MainMenuUI : MonoBehaviour
             BoostrapManager.Instance.HideLoading();
             string error = "No players are playing right now, create room and play with your friends";
             PanelAnimator.Show(errorPanel, error);
-            Invoke("HideErrorPanel", 5f);
         }
-    }
-
-    private void HideErrorPanel()
-    {
-        PanelAnimator.Hide(errorPanel);
     }
 }

@@ -10,7 +10,6 @@ using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,9 +44,7 @@ public class LobbyManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
-        SceneManager.LoadScene("MainMenu");
-
-
+        BoostrapManager.Instance.FadeSplashScreenAndLoadMainMenu();
     }
 
 
@@ -83,7 +80,6 @@ public class LobbyManager : MonoBehaviour
             if (joinCode == "")
             {
                 onLobbyFailed?.Invoke();
-                Debug.Log("Relay Creation is Failed");
                 return;
             }
 
