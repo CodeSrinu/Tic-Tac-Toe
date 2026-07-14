@@ -28,12 +28,12 @@ public class GameOverUI : MonoBehaviour
             GameManager.Instance.DeclineRematchServerRpc();
         });
 
-        PanelAnimator.Hide(gameObject);
 
         GameManager.Instance.OnGameWin += GameManager_OnGameWin;
         GameManager.Instance.OnGameTied += GameManager_OnGameTied;
         GameManager.Instance.OnRematch += GameManager_OnRematch;
 
+        gameObject.SetActive(false);
     }
 
     private void OnDestroy()
@@ -52,8 +52,7 @@ public class GameOverUI : MonoBehaviour
     {
         resultTextComp.text = "It's a Tie";
         resultIconComp.sprite = tieIcon;
-        //PanelAnimator.Show(gameObject);
-        gameObject.SetActive(true);
+        PanelAnimator.Show(gameObject);
     }
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
@@ -70,8 +69,7 @@ public class GameOverUI : MonoBehaviour
             resultTextComp.text = "Your strategy has failed!";
             resultIconComp.sprite = loseIcon;
         }
-        //PanelAnimator.Show(gameObject);
-        gameObject.SetActive(true);
+        PanelAnimator.Show(gameObject);
 
     }
 

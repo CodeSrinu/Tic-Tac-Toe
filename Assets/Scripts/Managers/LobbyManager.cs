@@ -44,7 +44,7 @@ public class LobbyManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         await UnityServices.InitializeAsync();
         await AuthenticationService.Instance.SignInAnonymouslyAsync();
-        BoostrapManager.Instance.FadeSplashScreenAndLoadMainMenu();
+        BoostrapManager.Instance.LoadMainMenuAndFadeSplashScreen();
     }
 
 

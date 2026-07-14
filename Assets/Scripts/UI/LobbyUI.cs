@@ -132,6 +132,11 @@ public class LobbyUI : MonoBehaviour
             BoostrapManager.Instance.ShowLoading();
             NetworkManager.Singleton.SceneManager.LoadScene("Game", UnityEngine.SceneManagement.LoadSceneMode.Single);
         }
+
+        if (isAllReady && !NetworkManager.Singleton.IsHost)
+        {
+            BoostrapManager.Instance.ShowLoading();
+        }
     }
 
 

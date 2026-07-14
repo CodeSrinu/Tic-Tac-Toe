@@ -53,6 +53,8 @@ public class GameVisualManager : NetworkBehaviour
         }
         allSpawnedObjs.Clear();
     }
+
+   
     private void GameManger_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
     {
         if (!NetworkManager.Singleton.IsHost) return;
@@ -60,25 +62,32 @@ public class GameVisualManager : NetworkBehaviour
         Debug.Log("OnGameWin triggered inside game visual manager");
 
         Vector3 center = GetGridWorldPos(e.centerGridPos.x, e.centerGridPos.y);
-        float rotatoinZ;
+        float rotationZ;
         switch (e.oreintation)
         {
             default:
                 case GameManager.Oreintation.Vertical:
-                    rotatoinZ = 0f;
+                    rotationZ = 0f;
                     break;
                 case GameManager.Oreintation.Horizontal:
-                    rotatoinZ = 90f;
+                    rotationZ = 90f;
                     break;
                 case GameManager.Oreintation.DiagnolA:
-                    rotatoinZ = -45f;
+                    rotationZ = -45f;
                     break;
                 case GameManager.Oreintation.DiagonlB:
-                    rotatoinZ = 45f;
+                    rotationZ = 45f;
                     break;
 
         }
-        Transform lineCompletePrefabTransform = Instantiate(lineCompletePrefab, center, Quaternion.Euler(0, 0, rotatoinZ));
+        
+        SpawnLinePrefabRpc(center, rotationZ);
+    }
+
+    [Rpc(SendTo.ClientsAndHost)]
+    public void SpawnLinePrefabRpc(Vector3 center, float rotationZ)
+    {
+        Transform lineCompletePrefabTransform = Instantiate(lineCompletePrefab, center, Quaternion.Euler(0, 0, rotationZ));
         allSpawnedObjs.Add(lineCompletePrefabTransform.gameObject);
     }
 

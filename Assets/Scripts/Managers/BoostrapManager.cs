@@ -29,11 +29,11 @@ public class BoostrapManager : MonoBehaviour
     public void ShowLoading() => loadingScreenManager.Show();
     public void HideLoading() => loadingScreenManager.Hide();
 
-    public void FadeSplashScreenAndLoadMainMenu() 
+    public void LoadMainMenuAndFadeSplashScreen() 
     {
-        splashScreen.transform.GetComponent<CanvasGroup>().DOFade(0, 0.4f).OnComplete(()=> { 
+        SceneManager.LoadScene("MainMenu");
+        splashScreen.transform.GetComponent<CanvasGroup>().DOFade(0, 0.5f).OnComplete(()=> { 
             splashScreen.SetActive(false);
-            SceneManager.LoadScene("MainMenu");
         });
     }
 
