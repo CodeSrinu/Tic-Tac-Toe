@@ -59,6 +59,13 @@ public class GameManager : NetworkBehaviour
 
     }
 
+    public override void OnDestroy()
+    {
+        Debug.Log($"GameResultUI OnDestroy called");
+        if (Instance == this)
+            Instance = null;
+    }
+
     public override void OnNetworkSpawn()
     {
 
@@ -175,6 +182,7 @@ public class GameManager : NetworkBehaviour
     [Rpc(SendTo.ClientsAndHost)]
     private void TriggerOnGameTiedRpc()
     {
+        Debug.Log($"TriggerOnGameWinRpc fired, OnGameWin subscriber count: {OnGameWin?.GetInvocationList().Length ?? 0}");
         OnGameTied?.Invoke(this, EventArgs.Empty);
     }
 
