@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameOverUI : MonoBehaviour
+public class GameResult : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI resultTextComp;
     [SerializeField] private Image resultIconComp;
@@ -15,8 +15,7 @@ public class GameOverUI : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("In GameOverUI Start");
-        rematchBtn.onClick.AddListener(() => 
+        rematchBtn.onClick.AddListener(() =>
         {
             BoostrapManager.Instance.ShowLoading();
             GameManager.Instance.RequestRematchServerRpc();
@@ -28,20 +27,14 @@ public class GameOverUI : MonoBehaviour
             GameManager.Instance.DeclineRematchServerRpc();
         });
 
-
         GameManager.Instance.OnGameWin += GameManager_OnGameWin;
+
         GameManager.Instance.OnGameTied += GameManager_OnGameTied;
         GameManager.Instance.OnRematch += GameManager_OnRematch;
 
         gameObject.SetActive(false);
     }
 
-    private void OnDestroy()
-    {
-        GameManager.Instance.OnGameWin -= GameManager_OnGameWin;
-        GameManager.Instance.OnGameTied -= GameManager_OnGameTied;
-        GameManager.Instance.OnRematch -= GameManager_OnRematch;
-    }
 
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
@@ -57,7 +50,6 @@ public class GameOverUI : MonoBehaviour
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
     {
-        Debug.Log("OnGameWin triggered inside gameOver UI");
 
         if (GameManager.Instance.GetLocalPlayerType == e.winPlayerType)
         {
@@ -74,3 +66,4 @@ public class GameOverUI : MonoBehaviour
     }
 
 }
+

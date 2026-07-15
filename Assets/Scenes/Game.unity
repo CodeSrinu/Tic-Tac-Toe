@@ -342,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: 146}
-  m_SizeDelta: {x: 500, y: 250}
+  m_AnchoredPosition: {x: -0.373, y: 146}
+  m_SizeDelta: {x: 331.254, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &233356492
 MonoBehaviour:
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: It's a Tie
+  m_text: It's a Tie!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 53979940a25e08d409b99d6860e4b56c, type: 2}
   m_sharedMaterial: {fileID: 3468659631359096395, guid: 53979940a25e08d409b99d6860e4b56c, type: 2}
@@ -3245,7 +3245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 18}
+  m_AnchoredPosition: {x: 9, y: 34}
   m_SizeDelta: {x: 350, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263194066
@@ -4150,7 +4150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -131}
+  m_AnchoredPosition: {x: 7, y: -143}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498674927
@@ -4346,7 +4346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -63}
+  m_AnchoredPosition: {x: 7, y: -75}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1541531638
@@ -5537,7 +5537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1794931073
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5559,8 +5559,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 10, y: -21.6299}
+  m_SizeDelta: {x: -40, y: 43.2599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794931074
 MonoBehaviour:
@@ -5571,9 +5571,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794931072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f5a08130c8c8264da6ef2051b21f211, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d428116de261874a929ce0aa614f076, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameResultUI
+  m_EditorClassIdentifier: Assembly-CSharp::GameResult
   resultTextComp: {fileID: 233356492}
   resultIconComp: {fileID: 1263194066}
   winIcon: {fileID: -8952632530727862395, guid: fb0a5c79223285a4c88bc7be527f006b, type: 3}

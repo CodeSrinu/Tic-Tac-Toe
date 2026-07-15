@@ -64,6 +64,7 @@ public class LobbyManager : MonoBehaviour
         }
         catch(RelayServiceException rse)
         {
+            onLobbyFailed?.Invoke();
             Debug.LogError(rse.Message);
             return "";        
         }

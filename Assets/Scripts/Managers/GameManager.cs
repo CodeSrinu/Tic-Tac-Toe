@@ -59,9 +59,24 @@ public class GameManager : NetworkBehaviour
 
     }
 
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Space))
+    //    {
+    //        Debug.Log("Space clicked");
+    //        OnGameWin?.Invoke(this, new OnGameWinEventArgs
+    //        {
+    //            centerGridPos = new Vector2Int(1, 1),
+    //            oreintation = 0,
+    //            winPlayerType = playerTypeArray[0, 1],
+    //        });
+    //        Debug.Log($"OnGameWin subscriber count: {OnGameWin?.GetInvocationList().Length ?? 0}");
+
+    //    }
+    //}
+
     public override void OnDestroy()
     {
-        Debug.Log($"GameResultUI OnDestroy called");
         if (Instance == this)
             Instance = null;
     }
@@ -101,6 +116,7 @@ public class GameManager : NetworkBehaviour
     private void TriggerOnGameStartedRpc()
     {
         OnGameStarted?.Invoke(this, EventArgs.Empty);
+        BoostrapManager.Instance.HideLoading();
     }
 
     [Rpc(SendTo.Server)]
@@ -182,7 +198,6 @@ public class GameManager : NetworkBehaviour
     [Rpc(SendTo.ClientsAndHost)]
     private void TriggerOnGameTiedRpc()
     {
-        Debug.Log($"TriggerOnGameWinRpc fired, OnGameWin subscriber count: {OnGameWin?.GetInvocationList().Length ?? 0}");
         OnGameTied?.Invoke(this, EventArgs.Empty);
     }
 
