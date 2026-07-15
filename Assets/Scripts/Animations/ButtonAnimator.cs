@@ -62,9 +62,8 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         idleSequence
             .Append(transform.DORotate(new Vector3(0, 0, targetRotation), randomDuration)
             .SetEase(Ease.InOutSine))
-            //.Join(gameObject.GetComponent<RectTransform>().DOAnchorPos(originalAnchoredPos + new Vector2(Random.Range(-2f, 2f), Random.Range(-2f, 2f)), randomDuration)
-            //.SetEase(Ease.InOutSine))
-            ;
+            .Join(gameObject.GetComponent<RectTransform>().DOAnchorPos(originalAnchoredPos + new Vector2(Random.Range(-5f,5f), Random.Range(-3f, 3f)), randomDuration)
+            .SetEase(Ease.InOutSine));
 
 
         idleSequence
@@ -76,8 +75,4 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     {
         idleSequence?.Kill();
     }
-
-
-
-
 }
