@@ -6,11 +6,15 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 {
     private Sequence idleSequence;
     Vector2 originalAnchoredPos;
+    public bool CanMoveAndRotate = true;
 
     private void Start()
     {
         originalAnchoredPos = gameObject.GetComponent<RectTransform>().anchoredPosition;
-        StartMovement();
+        if (CanMoveAndRotate)
+        {
+            StartMovement();
+        }
     }
 
     public void OnPointerDown(PointerEventData eventData)

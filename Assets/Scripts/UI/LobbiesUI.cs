@@ -118,6 +118,10 @@ public class LobbiesUI : MonoBehaviour
                     LobbyManager.Instance.JoinLobyById(lobby.Id, playerName);
                 });
 
+                lobbyItem.GetComponentInChildren<Button>().gameObject.AddComponent<ButtonAnimator>();
+                lobbyItem.GetComponentInChildren<ButtonAnimator>().CanMoveAndRotate = false;
+
+
                 lobbyItem.GetComponent<CanvasGroup>().DOFade(1, 0.2f);
             }
     }

@@ -2449,6 +2449,7 @@ GameObject:
   - component: {fileID: 1556452615}
   - component: {fileID: 1556452614}
   - component: {fileID: 1556452613}
+  - component: {fileID: 1556452617}
   m_Layer: 5
   m_Name: Back btn
   m_TagString: Untagged
@@ -2557,6 +2558,22 @@ RectTransform:
   m_AnchoredPosition: {x: 189, y: -111}
   m_SizeDelta: {x: 120, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1556452617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556452612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e334d5f117cb6c943948d999addf2701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IconsAnimator
+  canRotate: 0
+  canMove: 0
+  rotationDuration: 20
+  zRotation: 180
 --- !u!1 &1632916857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +2725,7 @@ GameObject:
   - component: {fileID: 1847173580}
   - component: {fileID: 1847173579}
   - component: {fileID: 1847173578}
+  - component: {fileID: 1847173582}
   m_Layer: 5
   m_Name: Settings Btn
   m_TagString: Untagged
@@ -2816,6 +2834,22 @@ RectTransform:
   m_AnchoredPosition: {x: 966, y: -366}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1847173582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847173577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e334d5f117cb6c943948d999addf2701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IconsAnimator
+  canRotate: 1
+  canMove: 0
+  rotationDuration: 20
+  zRotation: 180
 --- !u!1 &1854741245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3141,7 +3175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -49.99945}
+  m_AnchoredPosition: {x: -0.000061035156, y: -49.999756}
   m_SizeDelta: {x: -140, y: -900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1994029611
@@ -3368,6 +3402,7 @@ GameObject:
   - component: {fileID: 2048820842}
   - component: {fileID: 2048820841}
   - component: {fileID: 2048820840}
+  - component: {fileID: 2048820844}
   m_Layer: 5
   m_Name: Ready Btn
   m_TagString: Untagged
@@ -3477,6 +3512,19 @@ RectTransform:
   m_AnchoredPosition: {x: 39, y: -701}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2048820844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048820839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762d8a26eb415b4894627e4167dc57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAnimator
+  CanMoveAndRotate: 0
 --- !u!1 &2051149701
 GameObject:
   m_ObjectHideFlags: 0

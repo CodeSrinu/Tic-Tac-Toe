@@ -38,6 +38,8 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private GameObject errorPanel;
     [SerializeField] private Button errorPanelOkBtn;
 
+    [SerializeField] private GameObject[] doodles;
+
     private void Awake()
     {
         playerNameInputComp.text = PlayerPrefs.GetString("PlayerName", "");
@@ -149,6 +151,8 @@ public class MainMenuUI : MonoBehaviour
         LobbyManager.Instance.onLobbyCreated += LobbyManager_onLobbyCreated;
         LobbyManager.Instance.onLobbyFailed += LobbyManager_onLobbyFailed;
         LobbyManager.Instance.onLobbyJoined += LobbyManager_onLobbyJoined;
+
+        SketchAnimator.DrawInSequence(doodles, 0.3f);
     }
 
 
