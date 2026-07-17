@@ -57,7 +57,7 @@ public class LobbyManager : MonoBehaviour
 
             UnityTransport transport = NetworkManager.Singleton.gameObject.GetComponent<UnityTransport>();
 
-            RelayServerData serverData = AllocationUtils.ToRelayServerData(allocation, "dtls");
+            RelayServerData serverData = AllocationUtils.ToRelayServerData(allocation, "wss");
             transport.SetRelayServerData(serverData);
 
             return joinCode;
@@ -168,7 +168,7 @@ public class LobbyManager : MonoBehaviour
             JoinAllocation joinAllocation = await RelayService.Instance.JoinAllocationAsync(relayJoinCode);
             UnityTransport transport = NetworkManager.Singleton.gameObject.GetComponent<UnityTransport>();
 
-            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "dtls");
+            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "wss");
             transport.SetRelayServerData(relayServerData);
 
             NetworkManager.Singleton.StartClient();
@@ -206,7 +206,7 @@ public class LobbyManager : MonoBehaviour
             JoinAllocation joinAllocation = await RelayService.Instance.JoinAllocationAsync(relayJoinCode);
 
             UnityTransport transport = NetworkManager.Singleton.gameObject.GetComponent<UnityTransport>();
-            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "dtls");
+            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "wss");
             transport.SetRelayServerData(relayServerData);
 
             NetworkManager.Singleton.StartClient();
@@ -243,7 +243,7 @@ public class LobbyManager : MonoBehaviour
             JoinAllocation joinAllocation = await RelayService.Instance.JoinAllocationAsync(relayJoinCode);
 
             UnityTransport transport = NetworkManager.Singleton.gameObject.GetComponent<UnityTransport>();
-            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "dtls");
+            RelayServerData relayServerData = AllocationUtils.ToRelayServerData(joinAllocation, "wss");
             transport.SetRelayServerData(relayServerData);
 
             NetworkManager.Singleton.StartClient();
