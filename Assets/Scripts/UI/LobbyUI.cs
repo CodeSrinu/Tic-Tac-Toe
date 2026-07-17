@@ -63,6 +63,7 @@ public class LobbyUI : MonoBehaviour
             }
 
             LobbyManager.Instance.onLobbyLeft += LobbyManager_onLobbyLeft;
+            LobbyManager.Instance.onLobbyJoined += LobbyManager_onLobbyJoined;
         });
 
 
@@ -82,8 +83,14 @@ public class LobbyUI : MonoBehaviour
 
     }
 
+    private void LobbyManager_onLobbyJoined()
+    {
+        AudioManager.Instance.PlayLobbyJoinedSound();
+    }
+
     private void LobbyManager_onLobbyLeft()
     {
+        AudioManager.Instance.PlayLobbyJoinedSound();
         SetUpLobbyPanel();
     }
 

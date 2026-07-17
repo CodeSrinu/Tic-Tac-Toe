@@ -171,7 +171,7 @@ public class MainMenuUI : MonoBehaviour
     private void LobbyManager_onLobbyFailed()
     {
         BoostrapManager.Instance.HideLoading();
-        PanelAnimator.Show(errorPanel,"Lobby creation is failed");
+        PanelAnimator.Show(errorPanel,"Attempt failed");
     }
 
     private void LobbyManager_onLobbyCreated()

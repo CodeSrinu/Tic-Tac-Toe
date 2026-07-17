@@ -2450,6 +2450,7 @@ GameObject:
   - component: {fileID: 1556452614}
   - component: {fileID: 1556452613}
   - component: {fileID: 1556452617}
+  - component: {fileID: 1556452618}
   m_Layer: 5
   m_Name: Back btn
   m_TagString: Untagged
@@ -2571,9 +2572,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IconsAnimator
   canRotate: 0
-  canMove: 0
+  canMove: 1
   rotationDuration: 20
   zRotation: 180
+--- !u!114 &1556452618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556452612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762d8a26eb415b4894627e4167dc57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAnimator
+  CanMoveAndRotate: 0
 --- !u!1 &1632916857
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,6 +2684,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 80284511}
+  - {fileID: 1556452616}
+  - {fileID: 1847173581}
   - {fileID: 564779219}
   - {fileID: 1137640936}
   - {fileID: 1158919499}
@@ -2679,8 +2695,6 @@ RectTransform:
   - {fileID: 2048820843}
   - {fileID: 964590159}
   - {fileID: 1986061390}
-  - {fileID: 1556452616}
-  - {fileID: 1847173581}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2726,6 +2740,7 @@ GameObject:
   - component: {fileID: 1847173579}
   - component: {fileID: 1847173578}
   - component: {fileID: 1847173582}
+  - component: {fileID: 1847173583}
   m_Layer: 5
   m_Name: Settings Btn
   m_TagString: Untagged
@@ -2850,6 +2865,19 @@ MonoBehaviour:
   canMove: 0
   rotationDuration: 20
   zRotation: 180
+--- !u!114 &1847173583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847173577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762d8a26eb415b4894627e4167dc57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAnimator
+  CanMoveAndRotate: 0
 --- !u!1 &1854741245
 GameObject:
   m_ObjectHideFlags: 0

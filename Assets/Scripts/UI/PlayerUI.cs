@@ -73,6 +73,7 @@ public class PlayerUI : MonoBehaviour
 
     private void PlayPenAnimation(float x)
     {
+        AudioManager.Instance.PlatTurnChangeSound();
         penIcon.transform.DOMoveX(x, 1.5f).SetEase(Ease.InOutQuart);
     }
 

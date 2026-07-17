@@ -8185,7 +8185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoodleAnimator
   canRotate: 0
-  canMove: 0
+  canMove: 1
   rotationDuration: 20
   zRotation: 180
 --- !u!114 &1688059652

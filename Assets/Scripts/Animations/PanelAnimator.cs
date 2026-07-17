@@ -24,9 +24,15 @@ public static class PanelAnimator
         Sequence sequence = DOTween.Sequence();
 
         AudioManager.Instance.PlayPanelSlideSound();
+        if (error != "")
+            AudioManager.Instance.PlayErrorSound();
         sequence
             .Append(go.transform.DOLocalMoveY(0f, moveYDuration))
             .Join(go.transform.DOLocalRotate(new Vector3(0, 0, 12f), moveYDuration)).SetDelay(0.3f)
+            .OnComplete(() =>
+            {
+                
+            })
             .Append(go.transform.DOLocalRotate(Vector3.zero, rotateBackYDuration).SetEase(Ease.OutBack));
         
     }

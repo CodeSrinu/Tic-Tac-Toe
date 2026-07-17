@@ -1647,6 +1647,16 @@ MonoBehaviour:
   panelSlideSound: {fileID: 8300000, guid: 4e3c94456394a134aa42fa212e486d8a, type: 3}
   panelSlideBackSound: {fileID: 8300000, guid: f3a382f05340822419d64accec42e227, type: 3}
   btnClickSound: {fileID: 8300000, guid: 37994b963823c4445bf75d5f12c31362, type: 3}
+  errorSound: {fileID: 8300000, guid: 4d7667bc5b14cc641baa77757d5d14b6, type: 3}
+  circleDrawSound: {fileID: 8300000, guid: 96341af0ade596248807f3b0b0cdf0b0, type: 3}
+  crossDrawSound: {fileID: 8300000, guid: 76996926b6dfdf44da0bb31a7694e808, type: 3}
+  loadingSound: {fileID: 8300000, guid: 403b8bc6fbbdae942929cc9e0d15a6c3, type: 3}
+  lobbyJoinedSound: {fileID: 8300000, guid: 994422082aa7314439a5a3b3cff25c57, type: 3}
+  winSound: {fileID: 8300000, guid: bf3934f762ba2704bad0c9df855a7bed, type: 3}
+  loseSound: {fileID: 8300000, guid: 340b2d45c308f1747a7b43252879b137, type: 3}
+  tieSound: {fileID: 8300000, guid: ebb5f29099dad084599c23b7450e9e3c, type: 3}
+  rematchTriggerSound: {fileID: 8300000, guid: 705a0e218dea4d544be2e4ada875b6ff, type: 3}
+  turnChangeSound: {fileID: 8300000, guid: a6fb0f44abe050d44b1cd32888197899, type: 3}
 --- !u!4 &1038435712
 Transform:
   m_ObjectHideFlags: 0

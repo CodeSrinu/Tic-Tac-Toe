@@ -2117,6 +2117,7 @@ GameObject:
   - component: {fileID: 987353490}
   - component: {fileID: 987353489}
   - component: {fileID: 987353492}
+  - component: {fileID: 987353493}
   m_Layer: 5
   m_Name: Back btn
   m_TagString: Untagged
@@ -2241,6 +2242,19 @@ MonoBehaviour:
   canMove: 0
   rotationDuration: 20
   zRotation: 180
+--- !u!114 &987353493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987353487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762d8a26eb415b4894627e4167dc57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAnimator
+  CanMoveAndRotate: 0
 --- !u!1 &1079801249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,6 +2268,7 @@ GameObject:
   - component: {fileID: 1079801251}
   - component: {fileID: 1079801250}
   - component: {fileID: 1079801254}
+  - component: {fileID: 1079801255}
   m_Layer: 5
   m_Name: Settings Btn
   m_TagString: Untagged
@@ -2378,6 +2393,19 @@ MonoBehaviour:
   canMove: 0
   rotationDuration: 20
   zRotation: 180
+--- !u!114 &1079801255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079801249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1762d8a26eb415b4894627e4167dc57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonAnimator
+  CanMoveAndRotate: 0
 --- !u!1 &1102974700
 GameObject:
   m_ObjectHideFlags: 0

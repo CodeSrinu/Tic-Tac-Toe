@@ -24,12 +24,17 @@ public class LoadingScreenManager : MonoBehaviour
     {
         gameObject.transform.GetComponent<CanvasGroup>().alpha = 0f;
         gameObject.SetActive(true);
-        gameObject.transform.GetComponent<CanvasGroup>().DOFade(1, 0.4f);
+
+        gameObject.transform.GetComponent<CanvasGroup>().DOFade(1, 0.4f).OnComplete(() =>
+        {
+            //AudioManager.Instance.PlayLoadingSound();
+        });
     }
 
 
     public void Hide()
     {
+        //AudioManager.Instance.StopLoadingSound();
         gameObject.transform.GetComponent<CanvasGroup>().DOFade(0, 0.4f).OnComplete(() =>
         {
             gameObject.SetActive(false);

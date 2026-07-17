@@ -45,7 +45,7 @@ public class GameResult : MonoBehaviour
     {
         resultTextComp.text = "It's a Tie";
         resultIconComp.sprite = tieIcon;
-        PanelAnimator.Show(gameObject);
+        Invoke("ShowTie", 0.8f);
     }
 
     private void GameManager_OnGameWin(object sender, GameManager.OnGameWinEventArgs e)
@@ -55,14 +55,32 @@ public class GameResult : MonoBehaviour
         {
             resultTextComp.text = "Victory is yours!";
             resultIconComp.sprite = winIcon;
+            Invoke("ShowWin", 0.8f);
         }
         else
         {
             resultTextComp.text = "Your strategy has failed!";
             resultIconComp.sprite = loseIcon;
-        }
-        PanelAnimator.Show(gameObject);
+            Invoke("ShowLose", 0.8f);
 
+        }
+
+    }
+
+    private void ShowWin()
+    {
+        PanelAnimator.Show(gameObject);
+        AudioManager.Instance.PlayWinSound();
+    }
+    private void ShowTie()
+    {
+        PanelAnimator.Show(gameObject);
+        AudioManager.Instance.PlayTieSound();
+    }
+    private void ShowLose()
+    {
+        PanelAnimator.Show(gameObject);
+        AudioManager.Instance.PlayLoseSound();
     }
 
 }

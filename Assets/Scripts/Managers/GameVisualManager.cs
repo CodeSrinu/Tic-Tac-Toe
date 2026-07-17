@@ -42,6 +42,7 @@ public class GameVisualManager : NetworkBehaviour
     private void GameManager_OnRematchRequested(object sender, System.EventArgs e)
     {
         PanelAnimator.Show(confirmRematchPanel.gameObject);
+        AudioManager.Instance.PlayRematchTriggerSound();
     }
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
@@ -118,6 +119,15 @@ public class GameVisualManager : NetworkBehaviour
         Transform cell = gridCells[cellIndex];
 
         Transform prefabTransform = Instantiate(prefab, cell.position, Quaternion.identity);
+        if(playerType == GameManager.PlayerType.Cross)
+        {
+            AudioManager.Instance.PlayCrossDrawSound();
+        }
+        else
+        {
+            AudioManager.Instance.PlayCircleDrawSound();
+        }
+
         allSpawnedObjs.Add(prefabTransform.gameObject);
     }
 

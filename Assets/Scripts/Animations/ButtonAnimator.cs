@@ -21,7 +21,6 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     {
         idleSequence?.Pause();
 
-        transform.DOKill();
         Sequence seq = DOTween.Sequence();
         float localZRotation = Random.Range(-5, 5);
         float scale = 0.95f;
@@ -35,7 +34,6 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        transform.DOKill();
 
         Sequence seq = DOTween.Sequence();
         float zRotation = 0f;

@@ -1,4 +1,5 @@
 using UnityEngine;
+using DG.Tweening;
 
 public class AudioManager : MonoBehaviour
 {
@@ -8,6 +9,16 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip panelSlideSound;
     [SerializeField] private AudioClip panelSlideBackSound;
     [SerializeField] private AudioClip btnClickSound;
+    [SerializeField] private AudioClip errorSound;
+    [SerializeField] private AudioClip circleDrawSound;
+    [SerializeField] private AudioClip crossDrawSound;
+    [SerializeField] private AudioClip loadingSound;
+    [SerializeField] private AudioClip lobbyJoinedSound;
+    [SerializeField] private AudioClip winSound;
+    [SerializeField] private AudioClip loseSound;
+    [SerializeField] private AudioClip tieSound;
+    [SerializeField] private AudioClip rematchTriggerSound;
+    [SerializeField] private AudioClip turnChangeSound;
 
     public static AudioManager Instance { get; private set; }
 
@@ -56,5 +67,58 @@ public class AudioManager : MonoBehaviour
     public void PlayBtnClickSound()
     {
         sfxAudioSource.PlayOneShot(btnClickSound);
+    }
+
+    public void PlayErrorSound()
+    {
+        sfxAudioSource.PlayOneShot(errorSound);
+    }
+    public void PlayCircleDrawSound()
+    {
+        sfxAudioSource.PlayOneShot(circleDrawSound);
+    }
+    public void PlayCrossDrawSound()
+    {
+        sfxAudioSource.PlayOneShot(crossDrawSound);
+    }
+    public void PlayLoadingSound()
+    {
+        sfxAudioSource.clip = loadingSound;
+        sfxAudioSource.loop = true;
+        sfxAudioSource.Play();
+    }
+    public void StopLoadingSound()
+    {
+        sfxAudioSource.DOFade(0, 0.2f).OnComplete(() =>
+        {
+            sfxAudioSource.Stop();
+            sfxAudioSource.clip = null;
+            sfxAudioSource.loop = false;
+        });
+        
+    }
+    public void PlayLobbyJoinedSound()
+    {
+        sfxAudioSource.PlayOneShot(lobbyJoinedSound);
+    }
+    public void PlayWinSound()
+    {
+        sfxAudioSource.PlayOneShot(winSound,0.3f);
+    }
+    public void PlayLoseSound()
+    {
+        sfxAudioSource.PlayOneShot(loseSound);
+    }
+    public void PlayTieSound()
+    {
+        sfxAudioSource.PlayOneShot(tieSound);
+    }
+    public void PlayRematchTriggerSound()
+    {
+        sfxAudioSource.PlayOneShot(rematchTriggerSound);
+    }
+    public void PlatTurnChangeSound()
+    {
+        sfxAudioSource.PlayOneShot(turnChangeSound, 0.15f);
     }
 }
