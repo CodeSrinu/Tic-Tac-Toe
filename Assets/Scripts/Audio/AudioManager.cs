@@ -4,19 +4,22 @@ public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioSource musicAudioSource;
     [SerializeField] private AudioSource sfxAudioSource;
-    
 
-    public static AudioManager instance { get; private set; }
+    [SerializeField] private AudioClip panelSlideSound;
+    [SerializeField] private AudioClip panelSlideBackSound;
+    [SerializeField] private AudioClip btnClickSound;
+
+    public static AudioManager Instance { get; private set; }
 
     private void Awake()
     {
-        if(instance != null && instance != this)
+        if(Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        instance = this;
+        Instance = this;
 
         DontDestroyOnLoad(gameObject);
     }
@@ -40,5 +43,18 @@ public class AudioManager : MonoBehaviour
     }
 
 
+    public void PlayPanelSlideSound()
+    {
+        sfxAudioSource.PlayOneShot(panelSlideSound, 0.7f);
+    }
+    public void PlayPanelSlideBackSound()
+    {
+        sfxAudioSource.PlayOneShot(panelSlideBackSound, 0.45f);
+    }
 
+
+    public void PlayBtnClickSound()
+    {
+        sfxAudioSource.PlayOneShot(btnClickSound);
+    }
 }

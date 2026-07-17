@@ -52,14 +52,14 @@ public class SettingsPanelUI : MonoBehaviour
 
         musicVolumeSlider.onValueChanged.AddListener((value) =>
         {
-            AudioManager.instance.SetMusicVolume(value);
+            AudioManager.Instance.SetMusicVolume(value);
             PlayerPrefs.SetFloat("musicVolume", value);
             PlayerPrefs.Save();
         });
 
         sfxVolumeSlider.onValueChanged.AddListener((value) =>
         {
-            AudioManager.instance.SetSFXVolume(value);
+            AudioManager.Instance.SetSFXVolume(value);
             PlayerPrefs.SetFloat("sfxVolume", value);
             PlayerPrefs.Save();
         });
@@ -73,7 +73,7 @@ public class SettingsPanelUI : MonoBehaviour
     private void UpdateMusicSourceBtn()
     {
         Sprite sprite = _isMusicSourceOn ? musicSourceTurnedOnSprite : musicSourceTurnedOffSprite;
-        AudioManager.instance.SetMusicSourceEnabledStatus(_isMusicSourceOn);
+        AudioManager.Instance.SetMusicSourceEnabledStatus(_isMusicSourceOn);
         musicVolumeSlider.interactable = _isMusicSourceOn;
         musicSourceBtn.GetComponent<Image>().sprite = sprite;
     }
@@ -82,7 +82,7 @@ public class SettingsPanelUI : MonoBehaviour
     private void UpdateSFXSourceBtn()
     {
         Sprite sprite = _isSfxSourceOn ? sfxSourceTurnedOnSprite : sfxSourceTurnedOffSprite;
-        AudioManager.instance.SetSFXSourceEnabledStatus(_isSfxSourceOn);
+        AudioManager.Instance.SetSFXSourceEnabledStatus(_isSfxSourceOn);
         sfxVolumeSlider.interactable = _isSfxSourceOn;
         sfxSourceBtn.GetComponent<Image>().sprite = sprite;
     }

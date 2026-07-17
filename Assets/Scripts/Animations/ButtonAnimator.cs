@@ -27,6 +27,7 @@ public class ButtonAnimator : MonoBehaviour, IPointerDownHandler, IPointerUpHand
         float scale = 0.95f;
         float duration = 0.06f;
 
+        AudioManager.Instance.PlayBtnClickSound();
         seq
             .Append(transform.DORotate(new Vector3(0, 0, localZRotation), duration).SetEase(Ease.OutQuad))
             .Join(transform.DOScale(scale, duration));
