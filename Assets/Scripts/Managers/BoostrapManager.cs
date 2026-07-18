@@ -7,6 +7,7 @@ public class BoostrapManager : MonoBehaviour
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private LoadingScreenManager loadingScreenManager;
     [SerializeField] private GameObject splashScreen;
+    [SerializeField] private GameObject connectionErrorPanel;
     public static BoostrapManager Instance;
 
     private void Awake()
@@ -22,12 +23,14 @@ public class BoostrapManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
         settingsPanel.SetActive(false);
         loadingScreenManager.gameObject.SetActive(false);
-
     }
 
     public void ShowSettings() => PanelAnimator.Show(settingsPanel);
     public void ShowLoading() => loadingScreenManager.Show();
     public void HideLoading() => loadingScreenManager.Hide();
+    public void ShowConnectionError() => PanelAnimator.Show(connectionErrorPanel);
+    public void HideConnectionError() => PanelAnimator.Hide(connectionErrorPanel);
+
 
     public void LoadMainMenuAndFadeSplashScreen() 
     {
@@ -36,7 +39,5 @@ public class BoostrapManager : MonoBehaviour
             splashScreen.SetActive(false);
         });
     }
-
-
 
 }

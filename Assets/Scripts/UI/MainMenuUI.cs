@@ -21,7 +21,8 @@ public class MainMenuUI : MonoBehaviour
 
     [Header("Create Room Panel")]
     [SerializeField] private GameObject createRoomPanel;
-    [SerializeField] private TMP_InputField lobbyNameTxtComp;
+    [SerializeField] private TMP_InputField lobbyNameInputComp;
+    [SerializeField] private TextMeshProUGUI roomNameErrorTxtComp;
     [SerializeField] private Toggle isPrivateToggle;
     [SerializeField] private Button createRoomConfirmBtn;
     [SerializeField] private Button createRoomPanelCancelBtn;
@@ -142,6 +143,11 @@ public class MainMenuUI : MonoBehaviour
             PanelAnimator.Hide(errorPanel);
         });
 
+        lobbyNameInputComp.onValueChanged.AddListener((value) =>
+        {
+            UpdateInputError(lobbyNameInputComp, roomNameErrorTxtComp);
+        });
+
         nameErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
         roomCodeErrorTxtComp.GetComponent<CanvasGroup>().alpha = 0f;
     }
@@ -183,7 +189,7 @@ public class MainMenuUI : MonoBehaviour
 
     public async void CreateRoomFlow()
     {
-        string lobbyName = lobbyNameTxtComp.text;
+        string lobbyName = lobbyNameInputComp.text;
         string hostName = playerNameInputComp.text.Trim();
         if(string.IsNullOrEmpty(lobbyName) || string.IsNullOrEmpty(hostName))
         {

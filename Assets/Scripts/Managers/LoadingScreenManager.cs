@@ -17,6 +17,8 @@ public class LoadingScreenManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(transform.parent);
+
+        //backBtn.onClick.AddListener(() => SceneManager.LoadScene("Main Menu"))
     }
 
 

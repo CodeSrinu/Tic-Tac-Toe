@@ -1,8 +1,5 @@
 using System;
-using System.Threading.Tasks;
 using Unity.Netcode;
-using Unity.Services.Lobbies;
-using Unity.Services.Lobbies.Models;
 using UnityEngine;
 
 public class GameManager : NetworkBehaviour
@@ -56,21 +53,27 @@ public class GameManager : NetworkBehaviour
             return;
         }
         Instance = this;
+    }
 
+    private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
+    {
+        if(clientId == NetworkManager.Singleton.LocalClientId)
+        {
+            BoostrapManager.Instance.ShowConnectionError();
+        }
     }
 
     //private void Update()
     //{
     //    if (Input.GetKeyDown(KeyCode.Space))
     //    {
-    //        Debug.Log("Space clicked");
     //        OnGameWin?.Invoke(this, new OnGameWinEventArgs
     //        {
     //            centerGridPos = new Vector2Int(1, 1),
     //            oreintation = 0,
     //            winPlayerType = playerTypeArray[0, 1],
     //        });
-    //        Debug.Log($"OnGameWin subscriber count: {OnGameWin?.GetInvocationList().Length ?? 0}");
+
 
     //    }
     //}
@@ -83,8 +86,10 @@ public class GameManager : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
+        NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
+        NetworkManager.Singleton.OnClientConnectedCallback += NetworkManager_OnClientConnectedCallback;
 
-        if(NetworkManager.Singleton.LocalClientId == 0)
+        if (NetworkManager.Singleton.LocalClientId == 0)
         {
             _localPlayerType = PlayerType.Cross;
         }
@@ -102,6 +107,21 @@ public class GameManager : NetworkBehaviour
         {
             OnCurrentPlayerTypeChange?.Invoke(this, _currentPlayablePlayerType.Value);
         };
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        NetworkManager.Singleton.OnClientDisconnectCallback -= NetworkManager_OnClientDisconnectCallback;
+        NetworkManager.Singleton.OnClientConnectedCallback -= NetworkManager_OnClientConnectedCallback;
+
+    }
+
+    private void NetworkManager_OnClientConnectedCallback(ulong clientId)
+    {
+        if (clientId == NetworkManager.Singleton.LocalClientId)
+        {
+            BoostrapManager.Instance.HideConnectionError();
+        }
     }
 
     private void SceneManager_OnLoadEventCompleted(string sceneName, UnityEngine.SceneManagement.LoadSceneMode loadSceneMode, System.Collections.Generic.List<ulong> clientsCompleted, System.Collections.Generic.List<ulong> clientsTimedOut)

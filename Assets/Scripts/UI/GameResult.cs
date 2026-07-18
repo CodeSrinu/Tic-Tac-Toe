@@ -17,7 +17,6 @@ public class GameResult : MonoBehaviour
     {
         rematchBtn.onClick.AddListener(() =>
         {
-            BoostrapManager.Instance.ShowLoading();
             GameManager.Instance.RequestRematchServerRpc();
         });
 

@@ -103,7 +103,7 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayWinSound()
     {
-        sfxAudioSource.PlayOneShot(winSound,0.3f);
+        sfxAudioSource.PlayOneShot(winSound,0.25f);
     }
     public void PlayLoseSound()
     {
@@ -111,13 +111,13 @@ public class AudioManager : MonoBehaviour
     }
     public void PlayTieSound()
     {
-        sfxAudioSource.PlayOneShot(tieSound);
+        sfxAudioSource.PlayOneShot(tieSound, 0.3f);
     }
     public void PlayRematchTriggerSound()
     {
         sfxAudioSource.PlayOneShot(rematchTriggerSound);
     }
-    public void PlatTurnChangeSound()
+    public void PlayTurnChangeSound()
     {
         sfxAudioSource.PlayOneShot(turnChangeSound, 0.15f);
     }

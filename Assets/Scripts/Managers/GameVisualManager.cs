@@ -46,8 +46,8 @@ public class GameVisualManager : NetworkBehaviour
     }
     private void GameManager_OnRematch(object sender, System.EventArgs e)
     {
-        if (!NetworkManager.Singleton.IsHost) return;
-
+        //if (!NetworkManager.Singleton.IsHost) return;
+        Debug.Log("Inside gamemanager rematch");
         foreach(GameObject obj in allSpawnedObjs)
         {
             Destroy(obj);
@@ -81,7 +81,7 @@ public class GameVisualManager : NetworkBehaviour
                     break;
 
         }
-        
+
         SpawnLinePrefabRpc(center, rotationZ);
     }
 

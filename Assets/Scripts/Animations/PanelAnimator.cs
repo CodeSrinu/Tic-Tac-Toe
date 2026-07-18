@@ -39,6 +39,8 @@ public static class PanelAnimator
 
     public static void Hide(GameObject go)
     {
+        if (go.activeSelf) return;
+
         go.transform.DOKill();
 
         Sequence sequence = DOTween.Sequence();

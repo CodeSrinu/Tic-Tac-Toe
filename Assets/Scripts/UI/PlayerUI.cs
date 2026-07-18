@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour
 {
-    [SerializeField] private GameObject crossArrowImg;
-    [SerializeField] private GameObject circleArrowImg;
     [SerializeField] private GameObject penIcon;
     [SerializeField] private TextMeshProUGUI playerNameTxtComp;
     [SerializeField] private TextMeshProUGUI opponentNameTxtComp;
@@ -15,14 +13,6 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] private Button backBtn;
     [SerializeField] private Button settingsBtn;
 
-
-
-
-    private void Awake()
-    {
-        crossArrowImg.SetActive(false);
-        circleArrowImg.SetActive(false);
-    }
 
     private void Start()
     {
@@ -73,7 +63,7 @@ public class PlayerUI : MonoBehaviour
 
     private void PlayPenAnimation(float x)
     {
-        AudioManager.Instance.PlatTurnChangeSound();
+        AudioManager.Instance.PlayTurnChangeSound();
         penIcon.transform.DOMoveX(x, 1.5f).SetEase(Ease.InOutQuart);
     }
 
